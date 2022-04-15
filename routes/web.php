@@ -1,5 +1,7 @@
 <?php
 
+use App\Models\Image;
+use App\Models\Reus;
 use Illuminate\Foundation\Application;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
@@ -16,11 +18,20 @@ use Inertia\Inertia;
 */
 
 Route::get('/', function () {
+    $reuzen = Reus::all();
+    foreach ($reuzen as $reus){
+        $reus->grid = $reus->gridImage($reus->grid_image_id);
+        $reus->gridImage($reus->grid_image_id);
+        $reus->banner = $reus->bannerImage($reus->banner_image_id);
+        $reus->bannerImage($reus->banner_image_id);
+    }
     return Inertia::render('Home', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
+        'reuzen' => $reuzen,
+        'images' => Image::all(),
     ]);
 });
 

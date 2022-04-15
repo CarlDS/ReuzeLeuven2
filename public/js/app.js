@@ -22946,7 +22946,8 @@ __webpack_require__.r(__webpack_exports__);
     canLogin: Boolean,
     canRegister: Boolean,
     laravelVersion: String,
-    phpVersion: String
+    phpVersion: String,
+    reuzen: Array
   }
 }));
 
@@ -23679,19 +23680,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vue__WEBPACK_IMPORTED_MODULE_0__.defineComponent)({
+  props: ['reuzen'],
   data: function data() {
     return {
-      reuzen: [{
+      giants: [{
         id: 1,
         naam: 'Kobe Koeieschieter',
         image: 'images/kobe3.jpeg',
-        beschrijving: 'Ter gelegenheid van 4 x 11 jaar Orde van de Pietermannen, schonk de carnavalsvereniging in 2011 een reus aan de stad: Kobe Koeienschieter. De reus Kobe Koeienschieter staat officieel ingeschreven in het bevolkingsregister en werd ook gedoopt in de Sint-Pieterskerk. Zijn naam verwijst naar één van de bijnamen van de Leuvenaars, ‘koeienschieters’. De legende gaat terug tot de 17de eeuw, toen de Fransen een groot deel van Europa overheersden en witte pofbroeken droegen. Toen de Leuvenaars op een dag verdachte witte vlekken in de mist zagen bewegen, openden ze het vuur op wat zij dachten dat de Fransen waren. Uiteindelijk bleken de witte vlekken koeien te zijn. De 4,4 m hoge Kobe draagt een donkergrijze rok en een lichtgrijs hemd met het wapenschild van Leuven. Hij trekt er net zoals zijn andere medereuzen geregeld op uit om deel te nemen aan verschillende stoeten.',
+        beschrijving: 'Ter gelegenheid van 4 x 11 jaar Orde van de Pietermannen, schonk de carnavalsvereniging in 2011 een reus aan de stad: Kobe Koeienschieter. De reus Kobe Koeienschieter staat officieel ingeschreven in het bevolkingsregister en werd ook gedoopt in de Sint-Pieterskerk. Zijn naam verwijst naar één van de bijnamen van de Leuvenaars, koeienschieters. De legende gaat terug tot de 17de eeuw, toen de Fransen een groot deel van Europa overheersden en witte pofbroeken droegen. Toen de Leuvenaars op een dag verdachte witte vlekken in de mist zagen bewegen, openden ze het vuur op wat zij dachten dat de Fransen waren. Uiteindelijk bleken de witte vlekken koeien te zijn. De 4,4 m hoge Kobe draagt een donkergrijze rok en een lichtgrijs hemd met het wapenschild van Leuven. Hij trekt er net zoals zijn andere medereuzen geregeld op uit om deel te nemen aan verschillende stoeten.',
         beheerder: 'Orde van de Pietermannen'
       }, {
         id: 2,
         naam: 'Fiere Margriet',
         image: 'images/fiere1.jpeg',
-        beschrijving: 'In 2013 pakten de Mannen van \'73 uit met een stunt: een nieuwe reuzenstoet \'ReuzeLeuven\' én een nieuwe reuzin, Fiere Margriet. De reuzin verwijst naar een van de bekendste legendes van Leuven. De legende luidt als volgt: Margaretha van Loven werkt als dienstmeisje in de herberg van haar oom Amandus in de Muntstraat. Op een avond komt er een reizigersgezelschap toe, maar het blijken overvallers. Die pelgrims vermoorden haar familieleden en nemen Margaretha mee buiten de stad. Daar proberen de overvallers haar te verkrachten, maar Margaretha biedt weerstand (vandaar de naam ‘Fiere Margriet’). Uiteindelijk vermoorden ze haar en gooien haar lichaam in de Dijle. Wonder boven wonder zinkt het lichaam van Fiere Margriet niet, maar drijft op miraculeuze wijze stroomopwaarts naar Leuven. Tijdens \'ReuzeLeuven\', op 1 juni 2013, stelden de Mannen van \'73 trots hun reuzin voor. Fiere Margriet werd officieel ingehuldigd en  ingeschreven in het geboorteregister. De reuzin kreeg een meter, schepen Denise Vandevoort, en een peter, schepen Dirk Vansina. Op 31 mei 2014, de tweede \'ReuzeLeuven\' werd Fiere Margriet geheel volgens de reuzentraditie ook plechtig gedoopt. Voor die speciale gebeurtenis kwamen nog een 20-tal andere reuzen naar Leuven om deel te nemen aan de stoet en het doopfeest. Fiere Margriet kreeg ook een officiële meter - en peter -reus: respectievelijk reuzin Germaine De Walin uit Neerwinden en reus Vaantjesboer uit Halle. Sinds ze is gedoopt, neemt ze deel aan andere reuzenstoeten in ons land.Wil je meer weten over reuzin Fiere Margriet of wil je haar aanwezigheid op jouw evenement? Neem dan contact op met de voorzitter van de Mannen van 1973.',
+        beschrijving: 'In 2013 pakten de Mannen van \'73 uit met een stunt: een nieuwe reuzenstoet \'ReuzeLeuven\' én een nieuwe reuzin, Fiere Margriet. De reuzin verwijst naar een van de bekendste legendes van Leuven. De legende luidt als volgt: Margaretha van Loven werkt als dienstmeisje in de herberg van haar oom Amandus in de Muntstraat. Op een avond komt er een reizigersgezelschap toe, maar het blijken overvallers. Die pelgrims vermoorden haar familieleden en nemen Margaretha mee buiten de stad. Daar proberen de overvallers haar te verkrachten, maar Margaretha biedt weerstand (vandaar de naam Fiere Margriet). Uiteindelijk vermoorden ze haar en gooien haar lichaam in de Dijle. Wonder boven wonder zinkt het lichaam van Fiere Margriet niet, maar drijft op miraculeuze wijze stroomopwaarts naar Leuven. Tijdens \'ReuzeLeuven\', op 1 juni 2013, stelden de Mannen van \'73 trots hun reuzin voor. Fiere Margriet werd officieel ingehuldigd en  ingeschreven in het geboorteregister. De reuzin kreeg een meter, schepen Denise Vandevoort, en een peter, schepen Dirk Vansina. Op 31 mei 2014, de tweede \'ReuzeLeuven\' werd Fiere Margriet geheel volgens de reuzentraditie ook plechtig gedoopt. Voor die speciale gebeurtenis kwamen nog een 20-tal andere reuzen naar Leuven om deel te nemen aan de stoet en het doopfeest. Fiere Margriet kreeg ook een officiële meter - en peter -reus: respectievelijk reuzin Germaine De Walin uit Neerwinden en reus Vaantjesboer uit Halle. Sinds ze is gedoopt, neemt ze deel aan andere reuzenstoeten in ons land.Wil je meer weten over reuzin Fiere Margriet of wil je haar aanwezigheid op jouw evenement? Neem dan contact op met de voorzitter van de Mannen van 1973.',
         beheerder: 'Mannen van 1973'
       }, {
         id: 3,
@@ -27003,44 +27005,57 @@ var _hoisted_3 = {
   "class": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
 };
 var _hoisted_4 = {
-  "class": "flex justify-between h-16"
+  "class": "flex justify-between"
 };
 var _hoisted_5 = {
-  "class": "flex"
+  "class": "flex justify-between w-full"
 };
 var _hoisted_6 = {
-  "class": "shrink-0 flex items-center"
+  "class": "shrink-0 flex flex-row items-center m-3"
 };
-var _hoisted_7 = {
+
+var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": "text-3xl font-extrabold ml-8"
+  }, "ReuzeLeuven 2022", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_8 = {
   "class": "hidden space-x-8 sm:-my-px sm:ml-10 sm:flex justify-end"
 };
 
-var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ReuzeLeuven 2022 ");
+var _hoisted_9 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "ReuzeLeuven 2022", -1
+  /* HOISTED */
+  );
+});
 
-var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen in Leuven ");
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen in Leuven ");
 
-var _hoisted_10 = {
+var _hoisted_11 = {
   "class": "-mr-2 flex items-center sm:hidden"
 };
-var _hoisted_11 = {
+var _hoisted_12 = {
   "class": "h-6 w-6",
   stroke: "currentColor",
   fill: "none",
   viewBox: "0 0 24 24"
 };
-var _hoisted_12 = {
+var _hoisted_13 = {
   "class": "pt-2 pb-3 space-y-1 bg-red-500"
 };
 
-var _hoisted_13 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ReuzeLeuven 2022 ");
+var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ReuzeLeuven 2022 ");
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen in Leuven ");
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen in Leuven ");
 
-var _hoisted_15 = {
-  "class": "bg-white shadow mt-20"
+var _hoisted_16 = {
+  "class": "bg-white shadow mt-28"
 };
 
-var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hidden md:block max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
@@ -27050,7 +27065,7 @@ var _hoisted_16 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_17 = {
+var _hoisted_18 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -27077,20 +27092,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Head, {
     title: "ReuzeLeuven"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_application_mark, {
-    "class": "block h-9 w-auto"
-  })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
-    href: _ctx.route('dashboard'),
-    active: _ctx.route().current('dashboard')
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_8];
-    }),
-    _: 1
-    /* STABLE */
-
-  }, 8
-  /* PROPS */
-  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    "class": "block h-24 w-24 hover:h-40 hover:w-40"
+  }), _hoisted_7]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
     href: _ctx.route('dashboard'),
     active: _ctx.route().current('dashboard')
   }, {
@@ -27102,12 +27105,24 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["href", "active"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_10, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('dashboard'),
+    active: _ctx.route().current('dashboard')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_10];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return _ctx.showingNavigationDropdown = !_ctx.showingNavigationDropdown;
     }),
     "class": "inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-red-500 focus:outline-none focus:bg-red-500 focus:text-white transition"
-  }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("svg", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("svg", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)({
       'hidden': _ctx.showingNavigationDropdown,
       'inline-flex': !_ctx.showingNavigationDropdown
@@ -27134,19 +27149,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       'block': _ctx.showingNavigationDropdown,
       'hidden': !_ctx.showingNavigationDropdown
     }, "sm:hidden"])
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
-    href: _ctx.route('dashboard'),
-    active: _ctx.route().current('dashboard')
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_13];
-    }),
-    _: 1
-    /* STABLE */
-
-  }, 8
-  /* PROPS */
-  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
     href: _ctx.route('dashboard'),
     active: _ctx.route().current('dashboard')
   }, {
@@ -27158,11 +27161,27 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
+    href: _ctx.route('dashboard'),
+    active: _ctx.route().current('dashboard')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_15];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
   , ["href", "active"])])], 2
   /* CLASS */
-  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_15, [_hoisted_16, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro_banner)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_count_down, {
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_16, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro_banner)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_count_down, {
     to: "2022-05-21 11:00:00"
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_partners)])])])], 64
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven, {
+    reuzen: _ctx.reuzen
+  }, null, 8
+  /* PROPS */
+  , ["reuzen"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_partners)])])])], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -28448,12 +28467,20 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  src: "images/hedwig1logo.png",
-  "class": "rounded-full h-full my-2",
-  alt: ""
+  "class": "rounded-full bg-white p-2"
 };
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+  src: "images/RLLogo.png",
+  "class": "h-full w-full",
+  alt: ""
+}, null, -1
+/* HOISTED */
+);
+
+var _hoisted_3 = [_hoisted_2];
 function render(_ctx, _cache) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("img", _hoisted_1);
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, _hoisted_3);
 }
 
 /***/ }),
@@ -28486,9 +28513,6 @@ var _hoisted_4 = {
 var _hoisted_5 = {
   key: 2
 };
-var _hoisted_6 = {
-  key: 1
-};
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_ctx.countDown > 1 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.countDownDay) + " dagen, ", 1
   /* TEXT */
@@ -28498,7 +28522,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* TEXT */
   ), _ctx.countDownSecond < 10 ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("span", _hoisted_5, "0")) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)((0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.countDownSecond) + " seconden ", 1
   /* TEXT */
-  )])) : ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_6, " calculating "))]);
+  )])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]);
 }
 
 /***/ }),
@@ -28651,7 +28675,7 @@ var _hoisted_1 = {
   "class": "flex flex-col md:flex-row rounded-lg my-16"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-400\"> Partners </div><div class=\"flex-1 flex flex-col md:flex-row flex-wrap gap-6\"><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.cirkusinbeweging.be/\" target=\"_blank\"><img src=\"images/CIB_doorzichtig.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"http://www.luvanium.be/\" target=\"_blank\"><img src=\"images/logo3_luvanium.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.leuven.be/\" target=\"_blank\"><img src=\"images/Leuven-logo.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.wereldfeest.be/\" target=\"_blank\"><img src=\"images/wereldfeest-logo.png\" class=\"mx-auto\"><p class=\"text-center\">Wereldfeest 2022</p></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.erfgoedcelleuven.be/\" target=\"_blank\"><img src=\"images/erfgoed-logo.png\" class=\"mx-auto\"></a></div></div>", 2);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-400\"> Onze Partners </div><div class=\"flex-1 flex flex-col md:flex-row flex-wrap gap-6\"><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.cirkusinbeweging.be/\" target=\"_blank\"><img src=\"images/CIB_doorzichtig.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"http://www.luvanium.be/\" target=\"_blank\"><img src=\"images/logo3_luvanium.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.leuven.be/\" target=\"_blank\"><img src=\"images/Leuven-logo.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.wereldfeest.be/\" target=\"_blank\"><img src=\"images/wereldfeest-logo.png\" class=\"mx-auto\"><p class=\"text-center\">Wereldfeest 2022</p></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.erfgoedcelleuven.be/\" target=\"_blank\"><img src=\"images/erfgoed-logo.png\" class=\"mx-auto\"></a></div></div>", 2);
 
 var _hoisted_4 = [_hoisted_2];
 function render(_ctx, _cache) {
@@ -28741,7 +28765,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
       "class": "bg-contain bg-center bg-no-repeat h-52",
       style: (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeStyle)({
-        backgroundImage: 'url(' + reus.image + ')'
+        backgroundImage: 'url(' + reus.grid.url + ')'
       })
     }, null, 4
     /* STYLE */

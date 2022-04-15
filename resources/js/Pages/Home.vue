@@ -4,14 +4,15 @@
     <div class="min-h-screen bg-gray-100 dark:bg-gray-300">
         <nav class="w-full max-h-48 bg-red-500 fixed top-0 text-white z-40">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-                <div class="flex justify-between h-16">
-                    <div class="flex ">
-                        <div class="shrink-0 flex items-center">
-                            <jet-application-mark class="block h-9 w-auto" />
+                <div class="flex justify-between ">
+                    <div class="flex justify-between w-full">
+                        <div class="shrink-0 flex flex-row items-center  m-3">
+                            <jet-application-mark class="block h-24 w-24 hover:h-40 hover:w-40" />
+                            <div class="text-3xl font-extrabold ml-8">ReuzeLeuven 2022</div>
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ml-10 sm:flex justify-end">
                             <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
-                                ReuzeLeuven 2022
+                                <strong>ReuzeLeuven 2022</strong>
                             </jet-nav-link>
                             <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
                                 Reuzen in Leuven
@@ -39,7 +40,7 @@
                 </div>
             </div>
         </nav>
-        <header class="bg-white shadow mt-20">
+        <header class="bg-white shadow mt-28 ">
             <div class="hidden md:block max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                 <span class="text-3xl text-center">ReuzeLeuven 21 mei 2022</span>
             </div>
@@ -51,7 +52,7 @@
                 <count-down to="2022-05-21 11:00:00"/>
                 <rl-title />
                 <intro />
-                <reuzen-in-leuven />
+                <reuzen-in-leuven :reuzen="reuzen" />
                 <partners />
 
 
@@ -164,6 +165,8 @@
             canRegister: Boolean,
             laravelVersion: String,
             phpVersion: String,
+            reuzen: Array,
+
         }
     })
 </script>

@@ -1,7 +1,7 @@
 <template>
 <div class="flex flex-col md:flex-row  rounded-lg my-16">
     <div class="text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-400">
-        Partners
+        Onze Partners
     </div>
     <div class="flex-1 flex flex-col md:flex-row flex-wrap gap-6">
         <div class="w-1/2 md:w-1/3 lg:w-1/4  mx-auto my-auto">

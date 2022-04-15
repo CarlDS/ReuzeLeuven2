@@ -4,9 +4,7 @@
     <div v-if="countDown>1">
         {{ countDownDay}} dagen, <span v-if="countDownHour<10">0</span>{{ countDownHour}} uur <span v-if="countDownMinutes<10">0</span>{{countDownMinutes}} minuten en <span v-if="countDownSecond<10">0</span>{{ countDownSecond }} seconden
     </div>
-    <div v-else>
-        calculating
-    </div>
+
 </div>
 </template>
 <script>

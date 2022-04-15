@@ -1,3 +1,5 @@
 <template>
-    <img src="images/hedwig1logo.png" class="rounded-full h-full my-2" alt="">
+<div class="rounded-full bg-white p-2">
+    <img src="images/RLLogo.png" class="h-full w-full" alt="">
+</div>
 </template>
