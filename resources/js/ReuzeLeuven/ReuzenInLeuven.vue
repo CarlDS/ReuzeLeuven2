@@ -9,20 +9,6 @@
                 <p class="text-center text-white font-bold bg-red-300 hover:bg-red-500">{{reus.naam}}</p>
                 <div class="bg-contain bg-center bg-no-repeat h-52" :style="{ backgroundImage: 'url('+reus.grid.url+')'}"></div>
             </div>
-            <div class="h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-hidden">
-                <p class="text-center text-white font-bold bg-red-300">Wereldfeest 2023</p>
-                <div class="bg-contain bg-no-repeat bg-center  h-52" style="background-image: url(images/hedwig.jpeg)"></div>
-            </div>
-            <div class="h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-hidden">
-                <p class="text-center text-white font-bold bg-red-300">Wereldfeest 2023</p>
-                <div class="bg-contain bg-center bg-no-repeat h-52" style="background-image: url(images/kobe.jpeg)"></div>
-            </div>
-            <div class="h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-hidden">
-                <p class="text-center text-white font-bold bg-red-300">Wereldfeest 2023</p>
-                <div class="bg-contain bg-no-repeat bg-center  h-52" style="background-image: url(images/hedwig1.jpeg)"></div>
-            </div>
-
-
         </div>
    </div>
 </template>
