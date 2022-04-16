@@ -43,7 +43,7 @@
                 </div>
             </div>
         </nav>
-        <header class="bg-white shadow mt-28 ">
+        <header class="bg-white shadow mt-32 ">
             <intro-banner image="/images/fiere3.jpeg"/>
         </header>
         <main>

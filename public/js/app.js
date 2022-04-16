@@ -28427,7 +28427,7 @@ var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNo
 var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen in Leuven ");
 
 var _hoisted_17 = {
-  "class": "bg-white shadow mt-28"
+  "class": "bg-white shadow mt-32"
 };
 var _hoisted_18 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
@@ -28884,7 +28884,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "h-full lg:h-96 overflow-hidden relative mt-3"
+  "class": "h-full lg:h-96 overflow-hidden relative"
 };
 var _hoisted_2 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
