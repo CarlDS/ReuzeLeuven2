@@ -55,7 +55,7 @@ Route::get('/reuzen/{slug}', function ($slug) {
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
         'reuzen' => $reuzen,
-        'active' => $reus,
+        'reus' => $reus,
 
     ]);
 })->name('reus');
