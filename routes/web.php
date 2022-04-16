@@ -36,7 +36,7 @@ Route::get('/', function () {
 });
 
 Route::get('/reuzen/{slug}', function ($slug) {
-    $reus = Reus::where('slug', '==', $slug)->get();
+    $reus = Reus::where('slug', $slug)->get();
     dd($reus->naam);
 })->name('reus');
 
