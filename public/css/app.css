@@ -2119,12 +2119,20 @@ select {
     height: 5rem;
   }
 
+  .sm\:h-24 {
+    height: 6rem;
+  }
+
   .sm\:w-10 {
     width: 2.5rem;
   }
 
   .sm\:w-full {
     width: 100%;
+  }
+
+  .sm\:w-24 {
+    width: 6rem;
   }
 
   .sm\:max-w-md {
@@ -2245,6 +2253,11 @@ select {
 
   .sm\:text-right {
     text-align: right;
+  }
+
+  .sm\:text-3xl {
+    font-size: 1.875rem;
+    line-height: 2.25rem;
   }
 }
 @media (min-width: 768px) {
