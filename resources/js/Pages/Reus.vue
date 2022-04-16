@@ -44,7 +44,7 @@
             </div>
         </nav>
         <header class="bg-white shadow mt-28 ">
-            <intro-banner />
+            <intro-banner image="/images/fiere3.jpeg"/>
         </header>
         <main>
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
