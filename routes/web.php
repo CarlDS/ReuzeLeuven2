@@ -33,7 +33,7 @@ Route::get('/', function () {
         'reuzen' => $reuzen,
 
     ]);
-});
+})->name('home');
 
 Route::get('/reuzen/{slug}', function ($slug) {
     $reuzen = Reus::all();

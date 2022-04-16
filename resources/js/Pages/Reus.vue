@@ -7,7 +7,7 @@
                 <div class="flex justify-between ">
                     <div class="flex justify-between w-full">
                         <div class="shrink-0 flex flex-row items-center  m-3">
-                            <jet-application-mark class="block h-20 sm:h-24 w-20 sm:w-24 hover:h-40 hover:w-40" />
+                            <Link :href="route('home')"><jet-application-mark class="block h-20 sm:h-24 w-20 sm:w-24" /></Link>
                             <div class=" text-base text-center md:text-left md:text-3xl font-extrabold ml-8">ReuzeLeuven 2022</div>
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ml-10 md:flex justify-end">
