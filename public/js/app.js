@@ -29432,7 +29432,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(reus.naam), 1
         /* TEXT */
         ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-          "class": "border-2 border-red-500 bg-contain bg-center bg-no-repeat h-56 my-2",
+          "class": "border-2 border-red-500 bg-contain bg-center bg-no-repeat h-44 my-2",
           style: (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeStyle)({
             backgroundImage: 'url(/' + reus.grid.url + ')'
           })
