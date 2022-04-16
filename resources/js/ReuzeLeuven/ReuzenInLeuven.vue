@@ -8,7 +8,7 @@
             <div v-for="reus in reuzen" :key="reus" class="h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-y-auto">
                 <Link :href="route('reus', {slug:reus.slug})" class="block text-lg">
                     <p class="text-center text-white font-bold bg-red-300 hover:bg-red-500">{{reus.naam}}</p>
-                    <div class="bg-contain bg-center bg-no-repeat h-52" :style="{ backgroundImage: 'url('+reus.grid.url+')'}"></div>
+                    <div class="bg-contain bg-center bg-no-repeat h-52" :style="{ backgroundImage: 'url(/'+reus.grid.url+')'}"></div>
                 </Link>
             </div>
         </div>
