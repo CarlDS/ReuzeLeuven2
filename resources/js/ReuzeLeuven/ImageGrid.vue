@@ -12,13 +12,13 @@
     </div> -->
 
 
-    <div class=" bg-black p-2">
-        <img :src="current" class="max-h-96 mx-auto">
+    <div class=" bg-black p-2 h-96">
+        <img :src="current" class="max-h-96 mx-auto my-auto">
     </div>
     <div class="flex flex-nowrap overflow-x-auto">
         <div v-for="image in reus.images" :key="image" class="shrink-0 bg-black px-4 py-2">
             <div v-if="image.id != reus.banner_image_id">
-                <img :src="'/'+image.url" class="h-40">
+                <img :src="'/'+image.url" class="h-40" @click="focus(image.url)">
             </div>
         </div>
     </div>
@@ -33,6 +33,11 @@ export default defineComponent({
     data() {
         return{
             current: '/'+this.reus.images[0].url,
+        }
+    },
+    methods : {
+        focus(url){
+            this.current = '/'+url;
         }
     }
 })

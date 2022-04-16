@@ -23502,7 +23502,8 @@ __webpack_require__.r(__webpack_exports__);
   },
   data: function data() {
     return {
-      current: this.active
+      current: this.active,
+      showingNavigationDropdown: false
     };
   }
 }));
@@ -23639,6 +23640,11 @@ __webpack_require__.r(__webpack_exports__);
     return {
       current: '/' + this.reus.images[0].url
     };
+  },
+  methods: {
+    focus: function focus(url) {
+      this.current = '/' + url;
+    }
   }
 }));
 
@@ -28742,7 +28748,7 @@ var _hoisted_80 = /*#__PURE__*/_withScopeId(function () {
 });
 
 var _hoisted_81 = {
-  "class": "block w-full md:w-3/4"
+  "class": "block w-full md:w-3/4 p-2"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -28878,7 +28884,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, null, 8
   /* PROPS */
   , ["image"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" title "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [_ctx.reus.slug == 'jean-richard-II' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_19, _hoisted_24)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.reus.slug == 'da-tong' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_25, _hoisted_30)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.reus.slug == 'fiere-margriet' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_31, _hoisted_36)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.reus.slug == 'koningin-hedwig-van-polen' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_37, _hoisted_44)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.reus.slug == 'kobe-koeienschieter' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_45, _hoisted_50)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.reus.slug == 'prinses-nela' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_51, _hoisted_56)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true), _ctx.reus.slug == 'jan-van-den-graetmolen' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_57, _hoisted_62)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_63, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "w-full md:w-1/3 md:border-r-2 border-gray-300",
+    "class": "w-full md:w-1/3 md:border-r-2 border-gray-300 p-1",
     innerHTML: _ctx.reus.beschrijving
   }, null, 8
   /* PROPS */
@@ -29160,7 +29166,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-black p-2"
+  "class": "bg-black p-2 h-96"
 };
 var _hoisted_2 = ["src"];
 var _hoisted_3 = {
@@ -29169,11 +29175,11 @@ var _hoisted_3 = {
 var _hoisted_4 = {
   key: 0
 };
-var _hoisted_5 = ["src"];
+var _hoisted_5 = ["src", "onClick"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"bg-contain bg-center bg-no-repeat h-52\" :style=\"{ backgroundImage: 'url('+current+')'}\"></div>\n    <div class=\"flex flex-nowrap overflow-x-auto\">\n        <div v-for=\"image in reus.images\" :key=\"image\" class=\"flex flex-nowrap overflow-x-auto border-2 border-grey-400 bg-black  overflow-hidden\">\n            <img :src=\"'/'+image.url\" class=\"\">\n        </div>\n        <div v-for=\"image in reus.images\" :key=\"image\" class=\"h-56 w-auto border-2 border-grey-400 bg-black  overflow-hidden\">\n            <div v-if=\"image.id != reus.banner_image_id\">\n                <img :src=\"'/'+image.url\" class=\"\">\n            </div>\n        </div>\n    </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: _ctx.current,
-    "class": "max-h-96 mx-auto"
+    "class": "max-h-96 mx-auto my-auto"
   }, null, 8
   /* PROPS */
   , _hoisted_2)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.reus.images, function (image) {
@@ -29182,7 +29188,10 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
       "class": "shrink-0 bg-black px-4 py-2"
     }, [image.id != _ctx.reus.banner_image_id ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
       src: '/' + image.url,
-      "class": "h-40"
+      "class": "h-40",
+      onClick: function onClick($event) {
+        return _ctx.focus(image.url);
+      }
     }, null, 8
     /* PROPS */
     , _hoisted_5)])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]);
