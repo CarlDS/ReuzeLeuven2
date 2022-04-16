@@ -77,7 +77,7 @@
                 <div class="flex flex-col md:flex-row mt-2 p-1">
                     <div class="w-full md:w-1/3 md:border-r-2 border-gray-300" v-html="reus.beschrijving"></div>
                     <div class="w-full md:w-2/3 flex flex-col-reverse md:flex-row p-4">
-                        <div class="block w-1/4 p-2">
+                        <div class="block w-full md:w-1/4 p-2">
                             <div class="border-2 border-red-300 p-4">
                                 <h3 class="font-bold text-lg">Weetjes</h3>
                                 <p class="mt-2"><strong>Type:</strong><br>{{reus.type}}</p>
@@ -86,7 +86,7 @@
                                 <p class="mt-2"><strong>Geboortejaar:</strong><br>{{reus.geboortejaar}}</p>
                             </div>
                         </div>
-                        <div class="block w-3/4">
+                        <div class="block w-full md:w-3/4">
                             <image-grid :reus="reus" />
                         </div>
                     </div>

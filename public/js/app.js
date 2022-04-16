@@ -28663,7 +28663,7 @@ var _hoisted_65 = {
   "class": "w-full md:w-2/3 flex flex-col-reverse md:flex-row p-4"
 };
 var _hoisted_66 = {
-  "class": "block w-1/4 p-2"
+  "class": "block w-full md:w-1/4 p-2"
 };
 var _hoisted_67 = {
   "class": "border-2 border-red-300 p-4"
@@ -28742,7 +28742,7 @@ var _hoisted_80 = /*#__PURE__*/_withScopeId(function () {
 });
 
 var _hoisted_81 = {
-  "class": "block w-3/4"
+  "class": "block w-full md:w-3/4"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
