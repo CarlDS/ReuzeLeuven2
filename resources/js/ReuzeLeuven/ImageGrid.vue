@@ -12,13 +12,13 @@
     </div> -->
 
 
-    <div class=" bg-black p-2">
+    <div class=" bg-black p-2 ">
         <img :src="current">
     </div>
     <div class="flex flex-nowrap overflow-x-auto">
         <div v-for="image in reus.images" :key="image" class="shrink-0 bg-black px-4 py-2">
             <div v-if="image.id != reus.banner_image_id">
-                <img :src="'/'+image.url" class="h-52">
+                <img :src="'/'+image.url" class="h-40">
             </div>
         </div>
     </div>
