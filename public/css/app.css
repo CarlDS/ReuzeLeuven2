@@ -1064,9 +1064,6 @@ select {
 .mt-12 {
   margin-top: 3rem;
 }
-.mt-32 {
-  margin-top: 8rem;
-}
 .block {
   display: block;
 }
@@ -1555,9 +1552,6 @@ select {
 }
 .pt-8 {
   padding-top: 2rem;
-}
-.pt-32 {
-  padding-top: 8rem;
 }
 .text-left {
   text-align: left;

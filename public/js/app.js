@@ -28427,7 +28427,7 @@ var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNo
 var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen in Leuven ");
 
 var _hoisted_17 = {
-  "class": "bg-white shadow pt-32"
+  "class": "bg-white shadow mt-28"
 };
 var _hoisted_18 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
