@@ -86,7 +86,7 @@
                                 <p class="mt-2"><strong>Geboortejaar:</strong><br>{{reus.geboortejaar}}</p>
                             </div>
                         </div>
-                        <div class="block border-2 border-gray-300 w-3/4 p-2">
+                        <div class="block w-3/4">
                             <image-grid :reus="reus" />
                         </div>
                     </div>

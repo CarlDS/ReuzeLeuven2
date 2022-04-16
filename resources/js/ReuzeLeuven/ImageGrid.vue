@@ -12,7 +12,7 @@
     </div> -->
 
 
-    <div class=" bg-gray-500 ">
+    <div class=" bg-black p-2">
         <img :src="current">
     </div>
     <div class="flex flex-nowrap overflow-x-auto">
@@ -32,7 +32,7 @@ export default defineComponent({
     ],
     data() {
         return{
-            current: '/images/datong3.jpeg',
+            current: '/'+this.reus.images[0].url,
         }
     }
 })

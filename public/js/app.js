@@ -23637,7 +23637,7 @@ __webpack_require__.r(__webpack_exports__);
   props: ['reus'],
   data: function data() {
     return {
-      current: '/images/datong3.jpeg'
+      current: '/' + this.reus.images[0].url
     };
   }
 }));
@@ -28744,7 +28744,7 @@ var _hoisted_80 = /*#__PURE__*/_withScopeId(function () {
 });
 
 var _hoisted_81 = {
-  "class": "block border-2 border-gray-300 w-3/4 p-2"
+  "class": "block w-3/4"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -29159,7 +29159,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-gray-500"
+  "class": "bg-black p-2"
 };
 var _hoisted_2 = ["src"];
 var _hoisted_3 = {
