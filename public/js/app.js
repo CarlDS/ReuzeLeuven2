@@ -28884,13 +28884,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "h-full lg:h-96 overflow-hidden relative"
+  "class": "h-full lg:h-96 overflow-hidden relative mt-3"
 };
 var _hoisted_2 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: _ctx.image,
-    "class": "w-full xl:w-5/6 mx-auto"
+    "class": "w-full xl:w-5/6 xl:-mt-24 mx-auto"
   }, null, 8
   /* PROPS */
   , _hoisted_2)]);
