@@ -75,7 +75,7 @@
                     </div>
                 </div>
                 <div class="flex flex-col md:flex-row mt-2 p-1">
-                    <div class="w-full md:w-1/3 md:border-r-2 border-gray-300">{{reus.beschrijving}}</div>
+                    <div class="w-full md:w-1/3 md:border-r-2 border-gray-300" v-html="reus.beschrijving"></div>
                     <div class="w-full md:w-2/3 flex flex-col-reverse md:flex-row p-4">
                         <div class="block w-1/4 p-2">
                             <div class="border-2 border-red-300 p-4">

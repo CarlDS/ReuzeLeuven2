@@ -12,8 +12,8 @@
     </div> -->
 
 
-    <div class=" bg-black p-2 ">
-        <img :src="current">
+    <div class=" bg-black p-2">
+        <img :src="current" class="max-h-96 mx-auto">
     </div>
     <div class="flex flex-nowrap overflow-x-auto">
         <div v-for="image in reus.images" :key="image" class="shrink-0 bg-black px-4 py-2">
