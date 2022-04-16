@@ -80,10 +80,10 @@
                         <div class="block w-full md:w-1/4 p-2">
                             <div class="border-2 border-red-300 p-4">
                                 <h3 class="font-bold text-lg">Weetjes</h3>
-                                <p class="mt-2"><strong>Type:</strong><br>{{reus.type}}</p>
-                                <p class="mt-2"><strong>Lengte:</strong><br>{{reus.lengte}}</p>
-                                <p class="mt-2"><strong>Gewicht:</strong><br>{{reus.gewicht}}</p>
-                                <p class="mt-2"><strong>Geboortejaar:</strong><br>{{reus.geboortejaar}}</p>
+                                <p class="mt-2"><strong>Type: </strong>{{reus.type}}</p>
+                                <p class="mt-2"><strong>Lengte: </strong>{{reus.lengte}}</p>
+                                <p class="mt-2"><strong>Gewicht: </strong>{{reus.gewicht}}</p>
+                                <p class="mt-2"><strong>Geboortejaar: </strong>{{reus.geboortejaar}}</p>
                             </div>
                         </div>
                         <div class="block w-full md:w-3/4 p-2">
