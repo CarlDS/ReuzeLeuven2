@@ -66,7 +66,7 @@ Route::get('/reuzen/{slug}', function ($slug) {
 })->name('reus');
 
 Route::get('/reuzen', function(){
-    dd('reuzenlink');
+    return redirect(route('reus','jean-richard-II'));
 })->name('reuzeninleuven');
 
 Route::get('/reuzenbier', function(){

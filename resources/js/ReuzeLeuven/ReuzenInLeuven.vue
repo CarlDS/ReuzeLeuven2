@@ -7,8 +7,8 @@
 
             <div v-for="reus in reuzen" :key="reus" class="h-56 border-2 border-grey-400 bg-black  justify-between overflow-hidden">
                 <Link :href="route('reus', {slug:reus.slug})" class=" flex flex-col text-lg">
-                    <p class="border-2 border-green-500 text-center text-white font-bold bg-red-300 hover:bg-red-500 flex-nowrap overflow-x-auto">{{reus.naam}}</p>
-                    <div class=" border-2 border-red-500 bg-contain bg-center bg-no-repeat h-44 my-2 " :style="{ backgroundImage: 'url(/'+reus.grid.url+')'}"></div>
+                    <p class="text-center text-white font-bold bg-red-300 hover:bg-red-500 flex-nowrap overflow-x-auto">{{reus.naam}}</p>
+                    <div class=" bg-contain bg-center bg-no-repeat h-44 my-2 " :style="{ backgroundImage: 'url(/'+reus.grid.url+')'}"></div>
                 </Link>
             </div>
         </div>

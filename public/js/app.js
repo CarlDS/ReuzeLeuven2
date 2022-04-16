@@ -23638,12 +23638,12 @@ __webpack_require__.r(__webpack_exports__);
   props: ['reus'],
   data: function data() {
     return {
-      current: '/' + this.reus.images[0].url
+      current: this.reus.images[0]
     };
   },
   methods: {
-    focus: function focus(url) {
-      this.current = '/' + url;
+    focus: function focus(image) {
+      this.current = image;
     }
   }
 }));
@@ -29166,35 +29166,48 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "bg-black p-2 h-96"
+  "class": "bg-black p-2 h-96 max-h-96"
 };
-var _hoisted_2 = ["src"];
+var _hoisted_2 = {
+  "class": "text-sm text-white"
+};
 var _hoisted_3 = {
+  "class": "h-96 mx-auto my-auto"
+};
+var _hoisted_4 = ["src"];
+var _hoisted_5 = {
   "class": "flex flex-nowrap overflow-x-auto"
 };
-var _hoisted_4 = {
+var _hoisted_6 = {
   key: 0
 };
-var _hoisted_5 = ["src", "onClick"];
+var _hoisted_7 = ["onClick"];
+var _hoisted_8 = ["src", "alt"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
-  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"bg-contain bg-center bg-no-repeat h-52\" :style=\"{ backgroundImage: 'url('+current+')'}\"></div>\n    <div class=\"flex flex-nowrap overflow-x-auto\">\n        <div v-for=\"image in reus.images\" :key=\"image\" class=\"flex flex-nowrap overflow-x-auto border-2 border-grey-400 bg-black  overflow-hidden\">\n            <img :src=\"'/'+image.url\" class=\"\">\n        </div>\n        <div v-for=\"image in reus.images\" :key=\"image\" class=\"h-56 w-auto border-2 border-grey-400 bg-black  overflow-hidden\">\n            <div v-if=\"image.id != reus.banner_image_id\">\n                <img :src=\"'/'+image.url\" class=\"\">\n            </div>\n        </div>\n    </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-    src: _ctx.current,
-    "class": "max-h-96 mx-auto my-auto"
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <div class=\"bg-contain bg-center bg-no-repeat h-52\" :style=\"{ backgroundImage: 'url('+current+')'}\"></div>\n    <div class=\"flex flex-nowrap overflow-x-auto\">\n        <div v-for=\"image in reus.images\" :key=\"image\" class=\"flex flex-nowrap overflow-x-auto border-2 border-grey-400 bg-black  overflow-hidden\">\n            <img :src=\"'/'+image.url\" class=\"\">\n        </div>\n        <div v-for=\"image in reus.images\" :key=\"image\" class=\"h-56 w-auto border-2 border-grey-400 bg-black  overflow-hidden\">\n            <div v-if=\"image.id != reus.banner_image_id\">\n                <img :src=\"'/'+image.url\" class=\"\">\n            </div>\n        </div>\n    </div> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.current.copy), 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    src: '/' + _ctx.current.url,
+    "class": "block h-full mx-auto my-auto"
   }, null, 8
   /* PROPS */
-  , _hoisted_2)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.reus.images, function (image) {
+  , _hoisted_4)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.reus.images, function (image) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       key: image,
       "class": "shrink-0 bg-black px-4 py-2"
-    }, [image.id != _ctx.reus.banner_image_id ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
+    }, [image.id != _ctx.reus.banner_image_id ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+      onClick: function onClick($event) {
+        return _ctx.focus(image);
+      }
+    }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
       src: '/' + image.url,
       "class": "h-40",
-      onClick: function onClick($event) {
-        return _ctx.focus(image.url);
-      }
+      alt: image.copy
     }, null, 8
     /* PROPS */
-    , _hoisted_5)])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]);
+    , _hoisted_8)], 8
+    /* PROPS */
+    , _hoisted_7)])) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]);
   }), 128
   /* KEYED_FRAGMENT */
   ))])], 64
@@ -29424,7 +29437,7 @@ var _hoisted_3 = {
   "class": "flex-1 grid grid-cols-2 lg:grid-cols-3 gap-1 px-4"
 };
 var _hoisted_4 = {
-  "class": "border-2 border-green-500 text-center text-white font-bold bg-red-300 hover:bg-red-500 flex-nowrap overflow-x-auto"
+  "class": "text-center text-white font-bold bg-red-300 hover:bg-red-500 flex-nowrap overflow-x-auto"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
@@ -29443,7 +29456,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
         return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(reus.naam), 1
         /* TEXT */
         ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-          "class": "border-2 border-red-500 bg-contain bg-center bg-no-repeat h-44 my-2",
+          "class": "bg-contain bg-center bg-no-repeat h-44 my-2",
           style: (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeStyle)({
             backgroundImage: 'url(/' + reus.grid.url + ')'
           })
