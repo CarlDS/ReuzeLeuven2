@@ -28735,13 +28735,15 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* binding */ render)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+Object(function webpackMissingModule() { var e = new Error("Cannot find module '.images/RLLogo.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }());
+
 
 var _hoisted_1 = {
   "class": "rounded-full bg-white p-2"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "images/RLLogo.png",
+  src: Object(function webpackMissingModule() { var e = new Error("Cannot find module '.images/RLLogo.png'"); e.code = 'MODULE_NOT_FOUND'; throw e; }()),
   "class": "h-full w-full",
   alt: ""
 }, null, -1
