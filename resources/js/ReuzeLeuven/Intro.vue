@@ -3,7 +3,7 @@
     <h1 class="text-4xl font-bold p-4">Reuzen</h1>
 </div>
 <div>
-    <div class="flex flex-col md:flex-row">
+    <div class="flex flex-col-reverse md:flex-row">
 
         <div class="flex-col">
             <div class="text-gray-800 px-4 pb-4">

@@ -29242,7 +29242,7 @@ var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 );
 
 var _hoisted_2 = {
-  "class": "flex flex-col md:flex-row"
+  "class": "flex flex-col-reverse md:flex-row"
 };
 var _hoisted_3 = {
   "class": "flex-col"
