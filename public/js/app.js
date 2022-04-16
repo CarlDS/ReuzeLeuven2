@@ -28822,7 +28822,7 @@ var _hoisted_2 = {
 };
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "images/fiere.jpeg",
+  src: "/images/fiere.jpeg",
   "class": "block w-full md:w-1/2 lg:w-1/3 h-full"
 }, null, -1
 /* HOISTED */

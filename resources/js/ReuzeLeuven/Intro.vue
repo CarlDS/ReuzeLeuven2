@@ -4,7 +4,7 @@
 </div>
 <div>
     <div class="flex flex-col md:flex-row">
-        <img src="images/fiere.jpeg" class="block w-full md:w-1/2 lg:w-1/3 h-full">
+        <img src="/images/fiere.jpeg" class="block w-full md:w-1/2 lg:w-1/3 h-full">
         <div class="flex-col">
             <p class="text-gray-800 px-4 pb-4">
                 De levensloop van reuzen vertoont veel gelijkenissen met die van mensen. Zo gaat de “geboorte” van een nieuwe reus bijvoorbeeld vaak gepaard met een aantal geboorterituelen. Een nieuwe reus wordt meestal met een plechtige viering gedoopt. Verder krijgt een reus - net zoals een mensenkind - ook een peter en een meter, die beloven dat ze voor hem zullen zorgen en over zijn toekomst zullen waken. Aan de doopviering wordt vaak ook een stoet gekoppeld, waar ook andere reuzen in meewandelen.Soms trekt de stoet naar het gemeentehuis, om er op ludieke wijze aangifte te doen van de nieuwe inwoner. Vaak gaat dit gepaard met het opstellen van een heuse geboorteakte.
