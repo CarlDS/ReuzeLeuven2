@@ -50,8 +50,26 @@
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
                 <!-- title -->
                 <div class="text-5xl md:text-6xl lg:text-7xl p-2 text-gray-500 font-bold mt-12">
-                    <div v-if="reus.naam == 'Jean Richard II'">
-                    <span class="text-red-500">R</span>euze<span class="text-red-500">L</span>euven 2022
+                    <div v-if="reus.slug == 'jean-richard-II'">
+                        <span class="text-red-500">J</span>ean<span class="text-red-500"> R</span>ichard II
+                    </div>
+                    <div v-if="reus.slug == 'da-tong'">
+                        <span class="text-red-500">D</span>a <span class="text-red-500">T</span>ong
+                    </div>
+                    <div v-if="reus.slug == 'fiere-margriet'">
+                        <span class="text-red-500">F</span>iere <span class="text-red-500">M</span>argriet
+                    </div>
+                    <div v-if="reus.slug == 'koningin-hedwig-van-polen'">
+                        <span class="text-red-500">K</span>oningin <span class="text-red-500">H</span>edwig van <span class="text-red-500">P</span>olen
+                    </div>
+                    <div v-if="reus.slug == 'kobe-koeienschieter'">
+                        <span class="text-red-500">K</span>obe <span class="text-red-500">K</span>oeienschieter
+                    </div>
+                    <div v-if="reus.slug == 'prinses-nela'">
+                        <span class="text-red-500">P</span>rinses <span class="text-red-500">N</span>ela
+                    </div>
+                    <div v-if="reus.slug == 'jan-van-den-graetmolen'">
+                        <span class="text-red-500">J</span>an van den <span class="text-red-500">G</span>raetmolen 2022
                     </div>
                 </div>
 
