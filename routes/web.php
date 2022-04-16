@@ -36,8 +36,29 @@ Route::get('/', function () {
 });
 
 Route::get('/reuzen/{slug}', function ($slug) {
+    $reuzen = Reus::all();
+    foreach ($reuzen as $reus){
+        $reus->grid = $reus->gridImage($reus->grid_image_id);
+        $reus->gridImage($reus->grid_image_id);
+        $reus->banner = $reus->bannerImage($reus->banner_image_id);
+        $reus->bannerImage($reus->banner_image_id);
+    }
     $reus = Reus::where('slug', $slug)->firstOrFail();
+    $reus->grid = $reus->gridImage($reus->grid_image_id);
+    $reus->gridImage($reus->grid_image_id);
+    $reus->banner = $reus->bannerImage($reus->banner_image_id);
+    $reus->bannerImage($reus->banner_image_id);
+
     dd($reus->slug);
+    return Inertia::render('Reus', [
+        'canLogin' => Route::has('login'),
+        'canRegister' => Route::has('register'),
+        'laravelVersion' => Application::VERSION,
+        'phpVersion' => PHP_VERSION,
+        'reuzen' => $reuzen,
+        'active' => $reus,
+
+    ]);
 })->name('reus');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {

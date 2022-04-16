@@ -49,8 +49,8 @@
         <main>
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 
-                <count-down to="2022-05-21 11:00:00"/>
                 <rl-title />
+                {{reus}}
                 <intro />
                 <reuzen-in-leuven :reuzen="reuzen" />
                 <partners />
@@ -64,9 +64,15 @@
 import { defineComponent } from 'vue'
 
 export default defineComponent({
-    setup() {
-
-    },
+    props: [
+        'reuzen',
+        'reus',
+    ],
+    data() {
+        return{
+            current : this.active,
+        }
+    }
 })
 </script>
 

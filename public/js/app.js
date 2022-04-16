@@ -23466,7 +23466,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vue__WEBPACK_IMPORTED_MODULE_0__.defineComponent)({
-  setup: function setup() {}
+  props: ['reuzen', 'reus'],
+  data: function data() {
+    return {
+      current: this.active
+    };
+  }
 }));
 
 /***/ }),
@@ -28391,8 +28396,6 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_intro_banner = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("intro-banner");
 
-  var _component_count_down = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("count-down");
-
   var _component_rl_title = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("rl-title");
 
   var _component_intro = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("intro");
@@ -28499,9 +28502,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* PROPS */
   , ["href", "active"])])], 2
   /* CLASS */
-  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro_banner)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_count_down, {
-    to: "2022-05-21 11:00:00"
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven, {
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro_banner)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" " + (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(_ctx.reus) + " ", 1
+  /* TEXT */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven, {
     reuzen: _ctx.reuzen
   }, null, 8
   /* PROPS */
