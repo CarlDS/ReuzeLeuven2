@@ -49,7 +49,6 @@ Route::get('/reuzen/{slug}', function ($slug) {
     $reus->banner = $reus->bannerImage($reus->banner_image_id);
     $reus->bannerImage($reus->banner_image_id);
 
-    dd($reus->slug);
     return Inertia::render('Reus', [
         'canLogin' => Route::has('login'),
         'canRegister' => Route::has('register'),
