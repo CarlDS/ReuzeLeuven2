@@ -66,7 +66,7 @@
                         <p>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p>
                     </div>
                 </div>
-
+                <intro />
                 <reuzen-in-leuven :reuzen="reuzen" class="my-16"/>
                 <partners />
 
@@ -165,7 +165,8 @@
             Intro,
             Partners,
             RlTitle,
-            ReuzenInLeuven,
+            ReuzenInLeuven
+
         },
 
         data() {
