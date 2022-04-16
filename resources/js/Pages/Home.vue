@@ -6,18 +6,20 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between ">
                     <div class="flex justify-between w-full">
-                        <div class="shrink-0 flex flex-row items-center  m-3">
-                            <jet-application-mark class="block h-20 sm:h-24 w-20 sm:w-24 hover:h-40 hover:w-40" />
-                            <div class=" text-base text-center md:text-left md:text-3xl font-extrabold ml-8">ReuzeLeuven 2022</div>
+                        <div>
+                            <Link :href="route('home')" class="shrink-0 flex flex-row items-center  m-3">
+                                <jet-application-mark class="block h-20 sm:h-24 w-20 sm:w-24" />
+                                <div class=" text-base text-center md:text-left md:text-3xl font-extrabold ml-8">ReuzeLeuven 2022</div>
+                            </Link>
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ml-10 md:flex justify-end">
-                            <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                            <jet-nav-link :href="route('home')" :active="route().current('home')">
                                 <strong>Reuzen</strong>
                             </jet-nav-link>
-                            <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                            <jet-nav-link :href="route('reuzeninleuven')" :active="route().current('reuzeninleuven')">
                                 <strong>Reuzen in Leuven</strong>
                             </jet-nav-link>
-                            <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                            <jet-nav-link :href="route('reuzenbier')" :active="route().current('reuzenbier')">
                                 <strong>Reuzenbier</strong>
                             </jet-nav-link>
                         </div>
@@ -34,11 +36,11 @@
             </div>
             <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="md:hidden">
                 <div class="pt-2 pb-3 space-y-1 bg-red-500">
-                    <jet-responsive-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
-                        ReuzeLeuven 2022
-                    </jet-responsive-nav-link>
-                    <jet-responsive-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                    <jet-responsive-nav-link :href="route('reuzeninleuven')" :active="route().current('reuzeninleuven')">
                         Reuzen in Leuven
+                    </jet-responsive-nav-link>
+                    <jet-responsive-nav-link :href="route('reuzenbier')" :active="route().current('reuzenbier')">
+                        Reuzenbier
                     </jet-responsive-nav-link>
                 </div>
             </div>

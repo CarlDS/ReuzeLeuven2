@@ -6,18 +6,20 @@
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between ">
                     <div class="flex justify-between w-full">
-                        <div class="shrink-0 flex flex-row items-center  m-3">
-                            <Link :href="route('home')"><jet-application-mark class="block h-20 sm:h-24 w-20 sm:w-24" /></Link>
-                            <div class=" text-base text-center md:text-left md:text-3xl font-extrabold ml-8">ReuzeLeuven 2022</div>
+                        <div>
+                            <Link :href="route('home')" class="shrink-0 flex flex-row items-center  m-3">
+                                <jet-application-mark class="block h-20 sm:h-24 w-20 sm:w-24" />
+                                <div class=" text-base text-center md:text-left md:text-3xl font-extrabold ml-8">ReuzeLeuven 2022</div>
+                            </Link>
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ml-10 md:flex justify-end">
-                            <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                            <jet-nav-link :href="route('home')" :active="route().current('home')">
                                 <strong>Reuzen</strong>
                             </jet-nav-link>
-                            <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                            <jet-nav-link :href="route('reuzeninleuven')" :active="route().current('reuzeninleuven')">
                                 <strong>Reuzen in Leuven</strong>
                             </jet-nav-link>
-                            <jet-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                            <jet-nav-link :href="route('reuzenbier')" :active="route().current('reuzenbier')">
                                 <strong>Reuzenbier</strong>
                             </jet-nav-link>
                         </div>
@@ -34,11 +36,11 @@
             </div>
             <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="md:hidden">
                 <div class="pt-2 pb-3 space-y-1 bg-red-500">
-                    <jet-responsive-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
-                        ReuzeLeuven 2022
-                    </jet-responsive-nav-link>
-                    <jet-responsive-nav-link :href="route('dashboard')" :active="route().current('dashboard')">
+                    <jet-responsive-nav-link :href="route('reuzeninleuven')" :active="route().current('reuzeninleuven')">
                         Reuzen in Leuven
+                    </jet-responsive-nav-link>
+                    <jet-responsive-nav-link :href="route('reuzenbier')" :active="route().current('reuzenbier')">
+                        Reuzenbier
                     </jet-responsive-nav-link>
                 </div>
             </div>
@@ -73,10 +75,20 @@
                     </div>
                 </div>
                 <div class="flex flew-col md:flex-row mt-2 p-1">
-                    <div>{{reus.beschrijving}}</div>
-                    <div>
-                        <div>test</div>
-                        <div>test</div>
+                    <div class="w-full md:w-1/3 border-r-2 border-gray-300">{{reus.beschrijving}}</div>
+                    <div class="w-full md:w-2/3 flex flex-col-reverse md:flex-row p-4">
+                        <div class="block w-1/4 p-2">
+                            <div class="border-2 border-red-300 p-4">
+                                <h3 class="font-bold text-lg">Weetjes</h3>
+                                <p class="mt-2"><strong>Type:</strong><br>{{reus.type}}</p>
+                                <p class="mt-2"><strong>Lengte:</strong><br>{{reus.lengte}}</p>
+                                <p class="mt-2"><strong>Gewicht:</strong><br>{{reus.gewicht}}</p>
+                                <p class="mt-2"><strong>Geboortejaar:</strong><br>{{reus.geboortejaar}}</p>
+                            </div>
+                        </div>
+                        <div class="block border-2 border-gray-300 w-3/4 p-2">
+                            <image-grid :reus="reus" />
+                        </div>
                     </div>
                 </div>
 
@@ -163,6 +175,7 @@
     import Partners from '@/ReuzeLeuven/Partners.vue';
     import RlTitle from '@/ReuzeLeuven/RlTitle.vue';
     import ReuzenInLeuven from '@/ReuzeLeuven/ReuzenInLeuven.vue';
+    import ImageGrid from '@/ReuzeLeuven/ImageGrid.vue';
 
 export default defineComponent({
     props: [
@@ -180,6 +193,7 @@ export default defineComponent({
         Partners,
         RlTitle,
         ReuzenInLeuven,
+        ImageGrid
     },
     data() {
         return{

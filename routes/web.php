@@ -42,12 +42,17 @@ Route::get('/reuzen/{slug}', function ($slug) {
         $reus->gridImage($reus->grid_image_id);
         $reus->banner = $reus->bannerImage($reus->banner_image_id);
         $reus->bannerImage($reus->banner_image_id);
+        $reus->images = $reus->images($reus->id);
+        $reus->images($reus->id);
     }
     $reus = Reus::where('slug', $slug)->firstOrFail();
     $reus->grid = $reus->gridImage($reus->grid_image_id);
     $reus->gridImage($reus->grid_image_id);
     $reus->banner = $reus->bannerImage($reus->banner_image_id);
     $reus->bannerImage($reus->banner_image_id);
+    $reus->images = $reus->images($reus->id);
+    $reus->images($reus->id);
+
 
     return Inertia::render('Reus', [
         'canLogin' => Route::has('login'),
@@ -59,6 +64,14 @@ Route::get('/reuzen/{slug}', function ($slug) {
 
     ]);
 })->name('reus');
+
+Route::get('/reuzen', function(){
+    dd('reuzenlink');
+})->name('reuzeninleuven');
+
+Route::get('/reuzenbier', function(){
+    dd('reuzenbier');
+})->name('reuzenbier');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');

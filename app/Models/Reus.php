@@ -11,8 +11,8 @@ class Reus extends Model
 
     protected $fillable = ['naam', 'description', 'geboortejaar', 'type', 'lengte', 'gewicht', 'banner_image_id', 'grid_image_id'];
 
-    public function images(){
-        return $this->hasMany(Image::class);
+    public function images($id){
+        return Image::where('reus_id', $id)->get();
     }
     public function gridImage($id){
         return Image::find($id);
