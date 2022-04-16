@@ -27143,6 +27143,8 @@ var _hoisted_18 = {
 
 var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col md:flex-row my-16\" data-v-6a63e488><img src=\"/images/fiere.jpeg\" class=\"block w-full md:w-1/2 lg:w-1/3 h-full\" data-v-6a63e488><div class=\"flex-col px-8\" data-v-6a63e488><p class=\"text-5xl font-extrabold my-4 text-gray-700\" data-v-6a63e488>Wij verwachten u op</p><p class=\"text-3xl font-extrabold my-4\" data-v-6a63e488>Zaterdag 21 mei - 11u</p><p class=\"text-2xl font-extrabold mt-4\" data-v-6a63e488>In de historische binnenstad van Leuven</p><p data-v-6a63e488>De optocht vertrekt om 11 uur op het <strong data-v-6a63e488>Ladeuzenplein</strong>. Eindhalte op de Werelfeesten in het <strong data-v-6a63e488>Bruulpark</strong>.</p><p data-v-6a63e488>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p></div></div>", 1);
 
+var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Reuzeleuven.be");
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
@@ -27285,7 +27287,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": "my-16"
   }, null, 8
   /* PROPS */
-  , ["reuzen"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_partners)])])])], 64
+  , ["reuzen"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_partners)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    href: _ctx.route('home'),
+    "class": "block w-full bg-red-500 text-white text-center"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_20];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"])])], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -28730,6 +28744,9 @@ var _hoisted_76 = /*#__PURE__*/_withScopeId(function () {
 var _hoisted_77 = {
   "class": "block w-full md:w-3/4 p-2"
 };
+
+var _hoisted_78 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Reuzeleuven.be");
+
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
@@ -28884,7 +28901,19 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     reuzen: _ctx.reuzen
   }, null, 8
   /* PROPS */
-  , ["reuzen"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_partners)])])])], 64
+  , ["reuzen"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_partners)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+    href: _ctx.route('home'),
+    "class": "block w-full bg-red-500 text-white text-center"
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_78];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href"])])], 64
   /* STABLE_FRAGMENT */
   );
 }
@@ -29252,7 +29281,7 @@ var _hoisted_10 = {
 var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen kunnen verder ook huwen en kinderen krijgen. In tegenstelling tot mensen hoeven zij zich daarbij niet te houden aan wettelijke verplichtingen en aan natuurlijke beperkingen zijn ze evenmin onderworpen. Het is bijvoorbeeld goed mogelijk dat een reus op een en dezelfde dag geboren en gedoopt wordt en in het huwelijksbootje stapt. Bepaalde gemeenten bezitten meerdere reuzen, die samen een of meerdere reuzenfamilie(s) vormen. Soms wordt er zelfs een grootvader -of moeder in de familie aangeduid en net zoals bij mensen gebeurt het wel eens dat er een jubileum gevierd wordt. Het komt ook voor dat reuzen als ambassadeurs van hun gemeente een eretitel toegekend krijgen, die dan met een erelint of medaille op de romp van de reus voor iedereen zichtbaar wordt gemaakt. ");
 
 var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
-  src: "/images/fiere.jpeg",
+  src: "/images/jan1.jpeg",
   "class": "block w-full md:w-1/2 lg:w-1/3 h-full"
 }, null, -1
 /* HOISTED */

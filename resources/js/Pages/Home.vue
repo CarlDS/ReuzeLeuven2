@@ -73,6 +73,7 @@
 
             </div>
         </main>
+        <Link :href="route('home')" class="block w-full bg-red-500 text-white text-center">Reuzeleuven.be</Link>
     </div>
 </template>
 

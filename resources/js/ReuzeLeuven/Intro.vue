@@ -22,7 +22,7 @@
                 </p>
             </div>
         </div>
-        <img src="/images/fiere.jpeg" class="block w-full md:w-1/2 lg:w-1/3 h-full">
+        <img src="/images/jan1.jpeg" class="block w-full md:w-1/2 lg:w-1/3 h-full">
     </div>
 
 </div>
