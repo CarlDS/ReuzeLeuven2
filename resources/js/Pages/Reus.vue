@@ -48,8 +48,12 @@
         </header>
         <main>
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
-
-                <rl-title />
+                <!-- title -->
+                <div class="text-5xl md:text-6xl lg:text-7xl p-2 text-gray-500 font-bold mt-12">
+                    <div v-if="reus.naam == 'Jean Richard II'">
+                    <span class="text-red-500">R</span>euze<span class="text-red-500">L</span>euven 2022
+                    </div>
+                </div>
 
                 <reuzen-in-leuven :reuzen="reuzen" />
                 <partners />

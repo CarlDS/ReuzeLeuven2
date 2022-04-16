@@ -28432,6 +28432,34 @@ var _hoisted_17 = {
 var _hoisted_18 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
 };
+var _hoisted_19 = {
+  "class": "text-5xl md:text-6xl lg:text-7xl p-2 text-gray-500 font-bold mt-12"
+};
+var _hoisted_20 = {
+  key: 0
+};
+
+var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-red-500"
+  }, "R", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("euze");
+
+var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
+    "class": "text-red-500"
+  }, "L", -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("euven 2022 ");
+
+var _hoisted_25 = [_hoisted_21, _hoisted_22, _hoisted_23, _hoisted_24];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
 
@@ -28442,8 +28470,6 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_jet_responsive_nav_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-responsive-nav-link");
 
   var _component_intro_banner = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("intro-banner");
-
-  var _component_rl_title = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("rl-title");
 
   var _component_reuzen_in_leuven = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("reuzen-in-leuven");
 
@@ -28551,7 +28577,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     image: '/' + _ctx.reus.banner.url
   }, null, 8
   /* PROPS */
-  , ["image"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven, {
+  , ["image"])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" title "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [_ctx.reus.naam == 'Jean Richard II' ? ((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_20, _hoisted_25)) : (0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)("v-if", true)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven, {
     reuzen: _ctx.reuzen
   }, null, 8
   /* PROPS */
@@ -29031,7 +29057,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.reuzen, function (reus) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       key: reus,
-      "class": "h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-y-auto"
+      "class": "h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-hidden"
     }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
       href: _ctx.route('reus', {
         slug: reus.slug
