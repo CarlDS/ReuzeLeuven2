@@ -58,7 +58,7 @@
                 <rl-title />
                 <div class="flex flex-col md:flex-row my-16">
                     <img src="/images/fiere.jpeg" class="block w-full md:w-1/2 lg:w-1/3 h-full">
-                    <div class="flex-col pl-8">
+                    <div class="flex-col px-8">
                         <p class="text-5xl font-extrabold my-4 text-gray-700">Wij verwachten u op</p>
                         <p class="text-3xl font-extrabold my-4">Zaterdag 21 mei - 11u</p>
                         <p class="text-2xl font-extrabold mt-4">In de historische binnenstad van Leuven</p>

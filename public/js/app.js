@@ -27141,7 +27141,7 @@ var _hoisted_18 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
 };
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col md:flex-row my-16\" data-v-6a63e488><img src=\"/images/fiere.jpeg\" class=\"block w-full md:w-1/2 lg:w-1/3 h-full\" data-v-6a63e488><div class=\"flex-col pl-8\" data-v-6a63e488><p class=\"text-5xl font-extrabold my-4 text-gray-700\" data-v-6a63e488>Wij verwachten u op</p><p class=\"text-3xl font-extrabold my-4\" data-v-6a63e488>Zaterdag 21 mei - 11u</p><p class=\"text-2xl font-extrabold mt-4\" data-v-6a63e488>In de historische binnenstad van Leuven</p><p data-v-6a63e488>De optocht vertrekt om 11 uur op het <strong data-v-6a63e488>Ladeuzenplein</strong>. Eindhalte op de Werelfeesten in het <strong data-v-6a63e488>Bruulpark</strong>.</p><p data-v-6a63e488>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p></div></div>", 1);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col md:flex-row my-16\" data-v-6a63e488><img src=\"/images/fiere.jpeg\" class=\"block w-full md:w-1/2 lg:w-1/3 h-full\" data-v-6a63e488><div class=\"flex-col px-8\" data-v-6a63e488><p class=\"text-5xl font-extrabold my-4 text-gray-700\" data-v-6a63e488>Wij verwachten u op</p><p class=\"text-3xl font-extrabold my-4\" data-v-6a63e488>Zaterdag 21 mei - 11u</p><p class=\"text-2xl font-extrabold mt-4\" data-v-6a63e488>In de historische binnenstad van Leuven</p><p data-v-6a63e488>De optocht vertrekt om 11 uur op het <strong data-v-6a63e488>Ladeuzenplein</strong>. Eindhalte op de Werelfeesten in het <strong data-v-6a63e488>Bruulpark</strong>.</p><p data-v-6a63e488>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p></div></div>", 1);
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -29190,7 +29190,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   /* TEXT */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: '/' + _ctx.current.url,
-    "class": "block h-full mx-auto my-auto"
+    "class": "block max-h-full mx-auto my-auto"
   }, null, 8
   /* PROPS */
   , _hoisted_4)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.reus.images, function (image) {
