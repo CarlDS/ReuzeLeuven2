@@ -69,8 +69,11 @@
                         <span class="text-red-500">P</span>rinses <span class="text-red-500">N</span>ela
                     </div>
                     <div v-if="reus.slug == 'jan-van-den-graetmolen'">
-                        <span class="text-red-500">J</span>an van den <span class="text-red-500">G</span>raetmolen 2022
+                        <span class="text-red-500">J</span>an van den <span class="text-red-500">G</span>raetmolen
                     </div>
+                </div>
+                <div class="flex flew-col md:flex-row mt-2 p-1">
+                    {{reus.beschrijving}}
                 </div>
 
                 <reuzen-in-leuven :reuzen="reuzen" />
