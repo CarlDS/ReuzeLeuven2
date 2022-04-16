@@ -28656,10 +28656,10 @@ var _hoisted_61 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNo
 
 var _hoisted_62 = [_hoisted_58, _hoisted_59, _hoisted_60, _hoisted_61];
 var _hoisted_63 = {
-  "class": "flex flew-col md:flex-row mt-2 p-1"
+  "class": "flex flex-col md:flex-row mt-2 p-1"
 };
 var _hoisted_64 = {
-  "class": "w-full md:w-1/3 border-r-2 border-gray-300"
+  "class": "w-full md:w-1/3 md:border-r-2 border-gray-300"
 };
 var _hoisted_65 = {
   "class": "w-full md:w-2/3 flex flex-col-reverse md:flex-row p-4"
