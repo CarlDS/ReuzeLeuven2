@@ -31,7 +31,7 @@ Route::get('/', function () {
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
         'reuzen' => $reuzen,
-        'images' => Image::all(),
+
     ]);
 });
 

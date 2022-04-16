@@ -28752,9 +28752,6 @@ var _hoisted_3 = {
 var _hoisted_4 = {
   "class": "text-center text-white font-bold bg-red-300 hover:bg-red-500"
 };
-
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-hidden\"><p class=\"text-center text-white font-bold bg-red-300\">Wereldfeest 2023</p><div class=\"bg-contain bg-no-repeat bg-center h-52\" style=\"background-image:url(images/hedwig.jpeg);\"></div></div><div class=\"h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-hidden\"><p class=\"text-center text-white font-bold bg-red-300\">Wereldfeest 2023</p><div class=\"bg-contain bg-center bg-no-repeat h-52\" style=\"background-image:url(images/kobe.jpeg);\"></div></div><div class=\"h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-hidden\"><p class=\"text-center text-white font-bold bg-red-300\">Wereldfeest 2023</p><div class=\"bg-contain bg-no-repeat bg-center h-52\" style=\"background-image:url(images/hedwig1.jpeg);\"></div></div>", 3);
-
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.reuzen, function (reus) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
@@ -28772,7 +28769,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     )]);
   }), 128
   /* KEYED_FRAGMENT */
-  )), _hoisted_5])]);
+  ))])]);
 }
 
 /***/ }),
