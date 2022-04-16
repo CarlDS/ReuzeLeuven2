@@ -29413,7 +29413,7 @@ var _hoisted_3 = {
   "class": "flex-1 grid grid-cols-2 lg:grid-cols-3 gap-1 px-4"
 };
 var _hoisted_4 = {
-  "class": "border-2 border-green-500 text-center text-white font-bold bg-red-300 hover:bg-red-500"
+  "class": "border-2 border-green-500 text-center text-white font-bold bg-red-300 hover:bg-red-500 flex-nowrap overflow-x-auto"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
