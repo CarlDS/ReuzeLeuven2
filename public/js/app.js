@@ -23452,6 +23452,25 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Reus.vue?vue&type=script&lang=js":
+/*!*****************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Reus.vue?vue&type=script&lang=js ***!
+  \*****************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vue__WEBPACK_IMPORTED_MODULE_0__.defineComponent)({
+  setup: function setup() {}
+}));
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/TermsOfService.vue?vue&type=script&lang=js":
 /*!***************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/TermsOfService.vue?vue&type=script&lang=js ***!
@@ -23678,38 +23697,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
 /* harmony export */ });
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia-vue3 */ "./node_modules/@inertiajs/inertia-vue3/dist/index.js");
+
 
 /* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ((0,vue__WEBPACK_IMPORTED_MODULE_0__.defineComponent)({
   props: ['reuzen'],
-  data: function data() {
-    return {
-      giants: [{
-        id: 1,
-        naam: 'Kobe Koeieschieter',
-        image: 'images/kobe3.jpeg',
-        beschrijving: 'Ter gelegenheid van 4 x 11 jaar Orde van de Pietermannen, schonk de carnavalsvereniging in 2011 een reus aan de stad: Kobe Koeienschieter. De reus Kobe Koeienschieter staat officieel ingeschreven in het bevolkingsregister en werd ook gedoopt in de Sint-Pieterskerk. Zijn naam verwijst naar één van de bijnamen van de Leuvenaars, koeienschieters. De legende gaat terug tot de 17de eeuw, toen de Fransen een groot deel van Europa overheersden en witte pofbroeken droegen. Toen de Leuvenaars op een dag verdachte witte vlekken in de mist zagen bewegen, openden ze het vuur op wat zij dachten dat de Fransen waren. Uiteindelijk bleken de witte vlekken koeien te zijn. De 4,4 m hoge Kobe draagt een donkergrijze rok en een lichtgrijs hemd met het wapenschild van Leuven. Hij trekt er net zoals zijn andere medereuzen geregeld op uit om deel te nemen aan verschillende stoeten.',
-        beheerder: 'Orde van de Pietermannen'
-      }, {
-        id: 2,
-        naam: 'Fiere Margriet',
-        image: 'images/fiere1.jpeg',
-        beschrijving: 'In 2013 pakten de Mannen van \'73 uit met een stunt: een nieuwe reuzenstoet \'ReuzeLeuven\' én een nieuwe reuzin, Fiere Margriet. De reuzin verwijst naar een van de bekendste legendes van Leuven. De legende luidt als volgt: Margaretha van Loven werkt als dienstmeisje in de herberg van haar oom Amandus in de Muntstraat. Op een avond komt er een reizigersgezelschap toe, maar het blijken overvallers. Die pelgrims vermoorden haar familieleden en nemen Margaretha mee buiten de stad. Daar proberen de overvallers haar te verkrachten, maar Margaretha biedt weerstand (vandaar de naam Fiere Margriet). Uiteindelijk vermoorden ze haar en gooien haar lichaam in de Dijle. Wonder boven wonder zinkt het lichaam van Fiere Margriet niet, maar drijft op miraculeuze wijze stroomopwaarts naar Leuven. Tijdens \'ReuzeLeuven\', op 1 juni 2013, stelden de Mannen van \'73 trots hun reuzin voor. Fiere Margriet werd officieel ingehuldigd en  ingeschreven in het geboorteregister. De reuzin kreeg een meter, schepen Denise Vandevoort, en een peter, schepen Dirk Vansina. Op 31 mei 2014, de tweede \'ReuzeLeuven\' werd Fiere Margriet geheel volgens de reuzentraditie ook plechtig gedoopt. Voor die speciale gebeurtenis kwamen nog een 20-tal andere reuzen naar Leuven om deel te nemen aan de stoet en het doopfeest. Fiere Margriet kreeg ook een officiële meter - en peter -reus: respectievelijk reuzin Germaine De Walin uit Neerwinden en reus Vaantjesboer uit Halle. Sinds ze is gedoopt, neemt ze deel aan andere reuzenstoeten in ons land.Wil je meer weten over reuzin Fiere Margriet of wil je haar aanwezigheid op jouw evenement? Neem dan contact op met de voorzitter van de Mannen van 1973.',
-        beheerder: 'Mannen van 1973'
-      }, {
-        id: 3,
-        naam: 'Koningin Hedwig van Polen',
-        image: 'images/hedwig4.jpeg',
-        beschrijving: '<p>Op 17 oktober 2020 vierde de Poolse School Wislawa Szymborska de geboorte van hun nieuwe reuzin: koningin Hedwig van Polen. Polen kent zelf geen reuzencultuur, maar via koningin Hedwig, geeft de Poolse school graag een Poolse touch aan de reuzencultuur in Leuven. De Poolse gemeenschap is immers de derde grootste internationale gemeenschap in Leuven.</p><p class="text-xl">Poolse koningin</p><p>Poolse School Wislawa Szymborska koos voor koningin Hedwig van Polen (1384-1399) omdat ze de eerste vrouwelijke vorstin van Polen was en een belangrijke rol speelt in de Poolse geschiedenis. Koningin Hedwig stichtte verschillende ziekenhuizen, kloosters en scholen. In haar testament schonk ze een deel van haar juwelen aan de universiteit van Krakau. Net als de Poolse School Wislawa Szymborska vandaag, droeg koningin Hedwig onderwijs en opleiding dus hoog in het vaandel.</p><p class="text-xl">Zusterstad van Leuven</p><p>Koningin Hedwig leefde, stierf en is begraven in de Poolse stad Krakau, een zusterstad van Leuven. In de kathedraal van Krakau kan je een groot beeld van haar bezoeken.</p><p class="text-xl">Heilige Hedwig</p><p>Koningin Hedwig was erg geliefd in Polen, maar ze werd slechts 25 jaar. Na haar dood, werd ze heilig verklaard. Oorspronkelijk waren alle figuren in de Vlaamse reuzencultuur heiligen. </p><p class="text-xl">Een Poolse dame</p><p>Voor haar uiterlijk ging de Poolse school op zoek naar afbeeldingen van de koningin, maar die bleken erg beperkt. Ze kozen alvast voor enkele typische kenmerken van een jong, Slavisch meisje zoals blond haar, blauw ogen en uitgesproken jukbeenderen. Koningin Hedwig zat immers al op 10-jarige leeftijd op de troon.</p><p class="text-xl">Meter en Peter</p><p>Zoals de traditie het voorschrijft, is de Poolse reuzin na haar geboorte ingeschreven in het Leuvense bevolkingsregister. De Leuvense schepen van onderwijs Lalynn Wadera is meter, gemeenteraadslid Zeger Debyser is peter. Reuzenpeter is de Chinese reus Da Tong. Tijdens Reuzeleuven 2021 krijgt koningin Hedwig haar plechtige doopsel.</p>',
-        beheerder: 'Poolse School Wislawa Szymborska'
-      }, {
-        id: 4,
-        naam: 'Da Tong',
-        image: 'images/datong7.jpeg',
-        beschrijving: '<p>Reus Da Tong is een initiatief van Nihao Leuven, een Leuvense vereniging die de banden tussen de Chinese gemeenschap en Leuvenaars wil versterken.</p><p class="text-xl">Reuzentweeling</p><p>De eerste versie van de Chinese reus Da Tong werd gecreëerd in 2017 door Nihao Leuven en Femma Naaisalon Leuven. In die eerste versie was reus Da Tong een onderdeel van de reuzentweeling van de afdeling Diversiteit en Gelijke Kansen van de stad Leuven. Bijzonder aan deze reuzen is dat hun identiteit kan veranderen, naargelang de groep die de reus adopteert.</p><p class="text-xl">Da Tong groeit</p><p>Gebeten door de reuzencultuur, maakt Nihao Leuven in 2020 een grotere Da Tong. Die is bijna 4 meter hoog, krijgt wielen en blijft zijn beweeglijke handen en armen behouden. Voor zijn outfit werkt Nihao opnieuw samen met Femma. Het hoofd van de vroegere Da Tong is te klein. Samen met het Therapeutisch Activiteitencentrum van Sint-Kamillus in Bierbeek maken ze een groter hoofd in papier-maché. Zijn gezicht wordt verfijnd, maar zijn oorspronkelijke identiteit en looks worden behouden. </p><p class="text-xl">Chinese krijger</p><p>Reus Da Tong is een Chinese krijger, geïnspireerd op het terracottaleger. Deze boogschutter uit het terracottaleger streeft naar een veilige en vredige samenleving na de oorlogen voor de Qin-dynastie in 221 v.C. Nihao baseert zich op een figuur uit het terracottaleger omdat dit ook in het westen bekend is. De leden van Nihao kozen het gezicht en de naam van de reus. Belangrijk voor hen was dat de naam ook voor niet-Chineestaligen eenvoudig uit te spreken is.</p><p class="text-xl">Wapenfeiten</p><p>Da Tong is actief en geëngageerd. Naast de ReuzeLeuvenstoet duikt hij ook op tijdens Chinees Nieuwjaar in Leuven en loopt hij mee in de optocht van de \'dag tegen armoede\' in Leuven.<br>In oktober 2020 wordt de grote Da Tong al meteen peter van de dan net geboren Poolse reuzin, koningin Hedwig.<br>Tijdens Reuzeleuven 2021 krijgt Da Tong zijn plechtige doopsel. </p>',
-        beheerder: 'Nihao Leuven'
-      }]
-    };
-  }
+  components: [_inertiajs_inertia_vue3__WEBPACK_IMPORTED_MODULE_1__.Link]
 }));
 
 /***/ }),
@@ -27016,46 +27009,56 @@ var _hoisted_6 = {
 
 var _hoisted_7 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-    "class": "text-base sm:text-3xl font-extrabold ml-8"
+    "class": "text-base text-center md:text-left md:text-3xl font-extrabold ml-8"
   }, "ReuzeLeuven 2022", -1
   /* HOISTED */
   );
 });
 
 var _hoisted_8 = {
-  "class": "hidden space-x-8 sm:-my-px sm:ml-10 sm:flex justify-end"
+  "class": "hidden space-x-8 sm:-my-px sm:ml-10 md:flex justify-end"
 };
 
 var _hoisted_9 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "ReuzeLeuven 2022", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Reuzen", -1
   /* HOISTED */
   );
 });
 
-var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen in Leuven ");
+var _hoisted_10 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Reuzen in Leuven", -1
+  /* HOISTED */
+  );
+});
 
-var _hoisted_11 = {
-  "class": "-mr-2 flex items-center sm:hidden"
-};
+var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Reuzenbier", -1
+  /* HOISTED */
+  );
+});
+
 var _hoisted_12 = {
+  "class": "-mr-2 flex items-center md:hidden"
+};
+var _hoisted_13 = {
   "class": "h-6 w-6",
   stroke: "currentColor",
   fill: "none",
   viewBox: "0 0 24 24"
 };
-var _hoisted_13 = {
+var _hoisted_14 = {
   "class": "pt-2 pb-3 space-y-1 bg-red-500"
 };
 
-var _hoisted_14 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ReuzeLeuven 2022 ");
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ReuzeLeuven 2022 ");
 
-var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen in Leuven ");
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen in Leuven ");
 
-var _hoisted_16 = {
+var _hoisted_17 = {
   "class": "bg-white shadow mt-28"
 };
 
-var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
+var _hoisted_18 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hidden md:block max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
@@ -27065,7 +27068,7 @@ var _hoisted_17 = /*#__PURE__*/_withScopeId(function () {
   );
 });
 
-var _hoisted_18 = {
+var _hoisted_19 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
@@ -27117,12 +27120,24 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
-  , ["href", "active"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_11, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('dashboard'),
+    active: _ctx.route().current('dashboard')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_11];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
     onClick: _cache[0] || (_cache[0] = function ($event) {
       return _ctx.showingNavigationDropdown = !_ctx.showingNavigationDropdown;
     }),
     "class": "inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-red-500 focus:outline-none focus:bg-red-500 focus:text-white transition"
-  }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("svg", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+  }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("svg", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)({
       'hidden': _ctx.showingNavigationDropdown,
       'inline-flex': !_ctx.showingNavigationDropdown
@@ -27148,20 +27163,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([{
       'block': _ctx.showingNavigationDropdown,
       'hidden': !_ctx.showingNavigationDropdown
-    }, "sm:hidden"])
-  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
-    href: _ctx.route('dashboard'),
-    active: _ctx.route().current('dashboard')
-  }, {
-    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_14];
-    }),
-    _: 1
-    /* STABLE */
-
-  }, 8
-  /* PROPS */
-  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
+    }, "md:hidden"])
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
     href: _ctx.route('dashboard'),
     active: _ctx.route().current('dashboard')
   }, {
@@ -27173,9 +27176,21 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   }, 8
   /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
+    href: _ctx.route('dashboard'),
+    active: _ctx.route().current('dashboard')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_16];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
   , ["href", "active"])])], 2
   /* CLASS */
-  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_16, [_hoisted_17, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro_banner)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_count_down, {
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_17, [_hoisted_18, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro_banner)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_19, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_count_down, {
     to: "2022-05-21 11:00:00"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven, {
     reuzen: _ctx.reuzen
@@ -28286,6 +28301,215 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Reus.vue?vue&type=template&id=769d62ba":
+/*!*********************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Reus.vue?vue&type=template&id=769d62ba ***!
+  \*********************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "min-h-screen bg-gray-100 dark:bg-gray-300"
+};
+var _hoisted_2 = {
+  "class": "w-full max-h-48 bg-red-500 fixed top-0 text-white z-40"
+};
+var _hoisted_3 = {
+  "class": "max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"
+};
+var _hoisted_4 = {
+  "class": "flex justify-between"
+};
+var _hoisted_5 = {
+  "class": "flex justify-between w-full"
+};
+var _hoisted_6 = {
+  "class": "shrink-0 flex flex-row items-center m-3"
+};
+
+var _hoisted_7 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-base text-center md:text-left md:text-3xl font-extrabold ml-8"
+}, "ReuzeLeuven 2022", -1
+/* HOISTED */
+);
+
+var _hoisted_8 = {
+  "class": "hidden space-x-8 sm:-my-px sm:ml-10 md:flex justify-end"
+};
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Reuzen", -1
+/* HOISTED */
+);
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Reuzen in Leuven", -1
+/* HOISTED */
+);
+
+var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Reuzenbier", -1
+/* HOISTED */
+);
+
+var _hoisted_12 = {
+  "class": "-mr-2 flex items-center md:hidden"
+};
+var _hoisted_13 = {
+  "class": "h-6 w-6",
+  stroke: "currentColor",
+  fill: "none",
+  viewBox: "0 0 24 24"
+};
+var _hoisted_14 = {
+  "class": "pt-2 pb-3 space-y-1 bg-red-500"
+};
+
+var _hoisted_15 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" ReuzeLeuven 2022 ");
+
+var _hoisted_16 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen in Leuven ");
+
+var _hoisted_17 = {
+  "class": "bg-white shadow mt-28"
+};
+var _hoisted_18 = {
+  "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
+};
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
+
+  var _component_jet_application_mark = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-application-mark");
+
+  var _component_jet_nav_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-nav-link");
+
+  var _component_jet_responsive_nav_link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("jet-responsive-nav-link");
+
+  var _component_intro_banner = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("intro-banner");
+
+  var _component_count_down = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("count-down");
+
+  var _component_rl_title = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("rl-title");
+
+  var _component_intro = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("intro");
+
+  var _component_reuzen_in_leuven = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("reuzen-in-leuven");
+
+  var _component_partners = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("partners");
+
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Head, {
+    title: "ReuzeLeuven"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("nav", _hoisted_2, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_4, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_6, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_application_mark, {
+    "class": "block h-20 sm:h-24 w-20 sm:w-24 hover:h-40 hover:w-40"
+  }), _hoisted_7]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_8, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('dashboard'),
+    active: _ctx.route().current('dashboard')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_9];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('dashboard'),
+    active: _ctx.route().current('dashboard')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_10];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_nav_link, {
+    href: _ctx.route('dashboard'),
+    active: _ctx.route().current('dashboard')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_11];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_12, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+    onClick: _cache[0] || (_cache[0] = function ($event) {
+      return _ctx.showingNavigationDropdown = !_ctx.showingNavigationDropdown;
+    }),
+    "class": "inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-red-500 focus:outline-none focus:bg-red-500 focus:text-white transition"
+  }, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("svg", _hoisted_13, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)({
+      'hidden': _ctx.showingNavigationDropdown,
+      'inline-flex': !_ctx.showingNavigationDropdown
+    }),
+    "stroke-linecap": "round",
+    "stroke-linejoin": "round",
+    "stroke-width": "2",
+    d: "M4 6h16M4 12h16M4 18h16"
+  }, null, 2
+  /* CLASS */
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("path", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)({
+      'hidden': !_ctx.showingNavigationDropdown,
+      'inline-flex': _ctx.showingNavigationDropdown
+    }),
+    "stroke-linecap": "round",
+    "stroke-linejoin": "round",
+    "stroke-width": "2",
+    d: "M6 18L18 6M6 6l12 12"
+  }, null, 2
+  /* CLASS */
+  )]))])])])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+    "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([{
+      'block': _ctx.showingNavigationDropdown,
+      'hidden': !_ctx.showingNavigationDropdown
+    }, "md:hidden"])
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
+    href: _ctx.route('dashboard'),
+    active: _ctx.route().current('dashboard')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_15];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
+    href: _ctx.route('dashboard'),
+    active: _ctx.route().current('dashboard')
+  }, {
+    "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
+      return [_hoisted_16];
+    }),
+    _: 1
+    /* STABLE */
+
+  }, 8
+  /* PROPS */
+  , ["href", "active"])])], 2
+  /* CLASS */
+  )]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("header", _hoisted_17, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro_banner)]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_count_down, {
+    to: "2022-05-21 11:00:00"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven, {
+    reuzen: _ctx.reuzen
+  }, null, 8
+  /* PROPS */
+  , ["reuzen"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_partners)])])])], 64
+  /* STABLE_FRAGMENT */
+  );
+}
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/TermsOfService.vue?vue&type=template&id=63d45180":
 /*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/TermsOfService.vue?vue&type=template&id=63d45180 ***!
@@ -28756,7 +28980,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.reuzen, function (reus) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       key: reus,
-      "class": "h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-hidden"
+      "class": "h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-y-auto"
     }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(reus.naam), 1
     /* TEXT */
     ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
@@ -54500,6 +54724,34 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Reus.vue":
+/*!*************************************!*\
+  !*** ./resources/js/Pages/Reus.vue ***!
+  \*************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _Reus_vue_vue_type_template_id_769d62ba__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./Reus.vue?vue&type=template&id=769d62ba */ "./resources/js/Pages/Reus.vue?vue&type=template&id=769d62ba");
+/* harmony import */ var _Reus_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./Reus.vue?vue&type=script&lang=js */ "./resources/js/Pages/Reus.vue?vue&type=script&lang=js");
+/* harmony import */ var _Users_carldesmedt_Programming_ReuzeLeuven_ReuzeLeuven_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_Users_carldesmedt_Programming_ReuzeLeuven_ReuzeLeuven_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_Reus_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_Reus_vue_vue_type_template_id_769d62ba__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/Pages/Reus.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/Pages/TermsOfService.vue":
 /*!***********************************************!*\
   !*** ./resources/js/Pages/TermsOfService.vue ***!
@@ -55463,6 +55715,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Reus.vue?vue&type=script&lang=js":
+/*!*************************************************************!*\
+  !*** ./resources/js/Pages/Reus.vue?vue&type=script&lang=js ***!
+  \*************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Reus_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Reus_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Reus.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Reus.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/Pages/TermsOfService.vue?vue&type=script&lang=js":
 /*!***********************************************************************!*\
   !*** ./resources/js/Pages/TermsOfService.vue?vue&type=script&lang=js ***!
@@ -56343,6 +56611,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/Pages/Reus.vue?vue&type=template&id=769d62ba":
+/*!*******************************************************************!*\
+  !*** ./resources/js/Pages/Reus.vue?vue&type=template&id=769d62ba ***!
+  \*******************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Reus_vue_vue_type_template_id_769d62ba__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_Reus_vue_vue_type_template_id_769d62ba__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./Reus.vue?vue&type=template&id=769d62ba */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/Pages/Reus.vue?vue&type=template&id=769d62ba");
+
+
+/***/ }),
+
 /***/ "./resources/js/Pages/TermsOfService.vue?vue&type=template&id=63d45180":
 /*!*****************************************************************************!*\
   !*** ./resources/js/Pages/TermsOfService.vue?vue&type=template&id=63d45180 ***!
@@ -56800,6 +57084,7 @@ var map = {
 	"./Profile/Partials/UpdatePasswordForm.vue": "./resources/js/Pages/Profile/Partials/UpdatePasswordForm.vue",
 	"./Profile/Partials/UpdateProfileInformationForm.vue": "./resources/js/Pages/Profile/Partials/UpdateProfileInformationForm.vue",
 	"./Profile/Show.vue": "./resources/js/Pages/Profile/Show.vue",
+	"./Reus.vue": "./resources/js/Pages/Reus.vue",
 	"./TermsOfService.vue": "./resources/js/Pages/TermsOfService.vue",
 	"./Welcome.vue": "./resources/js/Pages/Welcome.vue"
 };

@@ -35,6 +35,11 @@ Route::get('/', function () {
     ]);
 });
 
+Route::get('/reuzen/{slug}', function ($slug) {
+    $reus = Reus::where('slug', '==', $slug);
+    dd($reus);
+})->name('reus');
+
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');
 })->name('dashboard');
