@@ -129,7 +129,7 @@
 </style>
 
 <script>
-    import { defineComponent } from 'vue'
+    import { defineComponent } from 'vue';
     import { Head, Link } from '@inertiajs/inertia-vue3';
     import JetApplicationMark from '@/ReuzeLeuven/ApplicationMark.vue';
     import JetNavLink from '@/ReuzeLeuven/NavLink.vue';
