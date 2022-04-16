@@ -29088,7 +29088,7 @@ var _hoisted_2 = ["src"];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
     src: _ctx.image,
-    "class": "w-full xl:w-5/6 xl:-mt-24 mx-auto"
+    "class": "w-full xl:w-5/6 mx-auto"
   }, null, 8
   /* PROPS */
   , _hoisted_2)]);
