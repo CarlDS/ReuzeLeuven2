@@ -44,13 +44,12 @@
             </div>
         </nav>
         <header class="bg-white shadow mt-32">
-            <intro-banner image="/images/fiere3.jpeg"/>
+            <intro-banner :image="reus.banner.url"/>
         </header>
         <main>
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 
                 <rl-title />
-                {{reus.naam}}
 
                 <reuzen-in-leuven :reuzen="reuzen" />
                 <partners />
