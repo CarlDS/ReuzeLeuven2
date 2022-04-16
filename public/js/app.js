@@ -29413,7 +29413,7 @@ var _hoisted_3 = {
   "class": "flex-1 grid grid-cols-2 lg:grid-cols-3 gap-1 px-4"
 };
 var _hoisted_4 = {
-  "class": "text-center text-white font-bold bg-red-300 hover:bg-red-500"
+  "class": "border-2 border-green-500 text-center text-white font-bold bg-red-300 hover:bg-red-500"
 };
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Link = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Link");
@@ -29421,18 +29421,18 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [((0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(true), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)(vue__WEBPACK_IMPORTED_MODULE_0__.Fragment, null, (0,vue__WEBPACK_IMPORTED_MODULE_0__.renderList)(_ctx.reuzen, function (reus) {
     return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", {
       key: reus,
-      "class": "h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-hidden"
+      "class": "h-56 border-2 border-grey-400 bg-black justify-between overflow-hidden"
     }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
       href: _ctx.route('reus', {
         slug: reus.slug
       }),
-      "class": "block text-lg"
+      "class": "flex flex-col text-lg"
     }, {
       "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
         return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", _hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.toDisplayString)(reus.naam), 1
         /* TEXT */
         ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-          "class": "bg-contain bg-center bg-no-repeat h-52",
+          "class": "border-2 border-red-500 bg-contain bg-center bg-no-repeat h-52 my-2",
           style: (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeStyle)({
             backgroundImage: 'url(/' + reus.grid.url + ')'
           })
