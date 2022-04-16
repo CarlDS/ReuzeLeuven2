@@ -73,8 +73,13 @@
                     </div>
                 </div>
                 <div class="flex flew-col md:flex-row mt-2 p-1">
-                    {{reus.beschrijving}}
+                    <div>{{reus.beschrijving}}</div>
+                    <div>
+                        <div>test</div>
+                        <div>test</div>
+                    </div>
                 </div>
+
 
                 <reuzen-in-leuven :reuzen="reuzen" />
                 <partners />
