@@ -37,7 +37,7 @@ Route::get('/', function () {
 
 Route::get('/reuzen/{slug}', function ($slug) {
     $reus = Reus::where('slug', $slug)->get();
-    dd($reus->naam);
+    dd($reus['naam']);
 })->name('reus');
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
