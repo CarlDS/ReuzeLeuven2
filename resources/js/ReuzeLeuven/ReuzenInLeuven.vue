@@ -6,23 +6,25 @@
         <div class="flex-1 grid grid-cols-2 lg:grid-cols-3 gap-1 px-4">
 
             <div v-for="reus in reuzen" :key="reus" class="h-56 border-2 border-grey-400 bg-black flex flex-col justify-between overflow-y-auto">
-                <p class="text-center text-white font-bold bg-red-300 hover:bg-red-500">{{reus.naam}}</p>
-                <div class="bg-contain bg-center bg-no-repeat h-52" :style="{ backgroundImage: 'url('+reus.grid.url+')'}"></div>
+                <Link :href="route('reus', {slug:reus.slug})" class="block text-lg">
+                    <p class="text-center text-white font-bold bg-red-300 hover:bg-red-500">{{reus.naam}}</p>
+                    <div class="bg-contain bg-center bg-no-repeat h-52" :style="{ backgroundImage: 'url('+reus.grid.url+')'}"></div>
+                </Link>
             </div>
         </div>
    </div>
 </template>
 <script>
-import { defineComponent } from 'vue'
-import { Head, Link } from '@inertiajs/inertia-vue3';
+import { defineComponent } from 'vue';
+import { Link } from '@inertiajs/inertia-vue3';
 
 export default defineComponent({
     props: [
         'reuzen',
     ],
-    components: [
+    components: {
         Link,
-    ]
+    }
 })
 </script>
 
