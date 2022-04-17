@@ -3,6 +3,7 @@
 use App\Models\Image;
 use App\Models\Reus;
 use Illuminate\Foundation\Application;
+use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -72,6 +73,30 @@ Route::get('/reuzen', function(){
 Route::get('/reuzenbier', function(){
     dd('reuzenbier');
 })->name('reuzenbier');
+
+Route::post('/contactform', function(Request $request){
+    $validated = $request->validate([
+        'name' => 'required|max:255',
+        'email' => 'required|max:255',
+        'subject' => 'required',
+        'message' => 'required',
+    ]);
+
+    $to = 'carl.desmedt@icloud.com';
+    $subject = "RL-webform: {$validated['subject']}" ;
+    $message = $validated['message'];
+
+    $from = 'web@reuzeleuven.be';
+    $headers   = array(
+        'From' => $from,
+        'Reply-To' => $from,
+        'X-Mailer' => 'PHP/'.phpversion()
+    );
+
+
+    mail($to, $subject, $message, $headers);
+    return redirect(route('home'));
+});
 
 Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
     return Inertia::render('Dashboard');

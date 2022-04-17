@@ -1,7 +1,7 @@
 <template>
     <Head title="ReuzeLeuven" />
 
-    <div class="min-h-screen bg-gray-100 dark:bg-gray-300">
+    <div class="min-h-screen bg-white dark:bg-white">
         <nav class="w-full max-h-48 bg-red-500 fixed top-0 text-white z-40">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between ">
@@ -70,6 +70,8 @@
                 <intro class="my-8 md:my-16"/>
                 <hr>
                 <reuzen-in-leuven :reuzen="reuzen" class="my-8 md:my-16"/>
+                <hr>
+                <reuzen-bier />
                 <hr>
                 <contact-form class="my-8 md:my-16"/>
                 <hr>
@@ -159,6 +161,7 @@
     import RlTitle from '@/ReuzeLeuven/RlTitle.vue';
     import ReuzenInLeuven from '@/ReuzeLeuven/ReuzenInLeuven.vue';
     import ContactForm from '@/ReuzeLeuven/ContactForm.vue';
+    import ReuzenBier from '@/ReuzeLeuven/ReuzenBier.vue';
 
     export default defineComponent({
         components: {
@@ -174,6 +177,7 @@
             RlTitle,
             ReuzenInLeuven,
             ContactForm,
+            ReuzenBier,
 
         },
 
