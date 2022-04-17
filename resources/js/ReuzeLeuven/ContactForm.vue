@@ -8,7 +8,7 @@
             <p>Stel ze hier.</p>
             <p>Wij antwoorden zo spoedig mogelijk.</p>
         </div>
-        <form @submit.prevent="form.post('/contactform')" class="flex flex-col w-full md:w-2/3 mx-auto md:p-8 ">
+        <form @submit.prevent="form.post('/contactform',{ preserveScroll: true, onSuccess: () => form.reset(),})" class="flex flex-col w-full md:w-2/3 mx-auto md:p-8 ">
             <div class="my-2 flex flex-col md:flex-row justify-between">
                 <label for="naam">Naam</label>
                 <input class="w-full md:w-96 rounded-md" type="text" name="name" id="name" v-model="form.name" required>

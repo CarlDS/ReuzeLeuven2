@@ -86,9 +86,9 @@ Route::post('/contactform', function(Request $request){
     $subject = "RL-webform: {$validated['subject']}" ;
     $message = $validated['message'];
 
-    $from = 'web@reuzeleuven.be';
+    $from = $validated['email'];
     $headers   = array(
-        'From' => $from,
+        'From' => $validated['name'].' <'.$from.'>',
         'Reply-To' => $from,
         'X-Mailer' => 'PHP/'.phpversion()
     );
