@@ -57,7 +57,7 @@
                 <count-down to="2022-05-21 11:00:00"/>
                 <rl-title />
                 <div class="flex flex-col md:flex-row my-16">
-                    <img src="/images/fiere.jpeg" class="block w-full md:w-1/2 lg:w-1/3 h-full shadow-md shadow-gray-700">
+                    <img src="/images/RLLogo.png" class="block w-full md:w-1/2 lg:w-1/3 h-full ">
                     <div class="flex-col px-8">
                         <p class="text-5xl font-extrabold my-4 text-gray-700">U bent uitgenodigd op</p>
                         <p class="text-3xl font-extrabold my-4">Zaterdag 21 mei - 11u</p>
