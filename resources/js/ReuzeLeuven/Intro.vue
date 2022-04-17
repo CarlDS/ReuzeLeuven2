@@ -1,6 +1,6 @@
 <template>
 <div >
-    <h1 class="text-4xl font-bold p-4">Reuzen</h1>
+    <h1 class="text-4xl font-bold p-4 text-gray-700">Reuzen</h1>
 </div>
 <div>
     <div class="flex flex-col-reverse md:flex-row">
@@ -22,7 +22,7 @@
                 </p>
             </div>
         </div>
-        <img src="/images/jan1.jpeg" class="block w-full md:w-1/2 lg:w-1/3 h-full">
+        <img src="/images/jan1.jpeg" class="block w-full md:w-1/2 lg:w-1/3 h-full shadow-md shadow-gray-700">
     </div>
 
 </div>

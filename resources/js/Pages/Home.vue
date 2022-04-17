@@ -57,18 +57,23 @@
                 <count-down to="2022-05-21 11:00:00"/>
                 <rl-title />
                 <div class="flex flex-col md:flex-row my-16">
-                    <img src="/images/fiere.jpeg" class="block w-full md:w-1/2 lg:w-1/3 h-full">
+                    <img src="/images/fiere.jpeg" class="block w-full md:w-1/2 lg:w-1/3 h-full shadow-md shadow-gray-700">
                     <div class="flex-col px-8">
                         <p class="text-5xl font-extrabold my-4 text-gray-700">U bent uitgenodigd op</p>
                         <p class="text-3xl font-extrabold my-4">Zaterdag 21 mei - 11u</p>
                         <p class="text-2xl font-extrabold mt-4">In de historische binnenstad van Leuven</p>
-                        <p>De optocht vertrekt om 11 uur op het <strong>Ladeuzenplein</strong>. Eindhalte op de Werelfeesten in het <strong>Bruulpark</strong>.</p>
+                        <p>De reuzenoptocht vertrekt om 11 uur op het <strong>Ladeuzenplein</strong>. Eindhalte op de Werelfeesten in het <strong>Bruulpark</strong>.</p>
                         <p>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p>
                     </div>
                 </div>
-                <intro />
+                <hr>
+                <intro class="my-16"/>
+                <hr>
                 <reuzen-in-leuven :reuzen="reuzen" class="my-16"/>
-                <partners />
+                <hr>
+                <contact-form class="my-16"/>
+                <hr>
+                <partners class="my-16"/>
 
 
             </div>
@@ -153,6 +158,7 @@
     import Partners from '@/ReuzeLeuven/Partners.vue';
     import RlTitle from '@/ReuzeLeuven/RlTitle.vue';
     import ReuzenInLeuven from '@/ReuzeLeuven/ReuzenInLeuven.vue';
+    import ContactForm from '@/ReuzeLeuven/ContactForm.vue';
 
     export default defineComponent({
         components: {
@@ -166,7 +172,8 @@
             Intro,
             Partners,
             RlTitle,
-            ReuzenInLeuven
+            ReuzenInLeuven,
+            ContactForm,
 
         },
 

@@ -1,6 +1,6 @@
 <template>
    <div class="flex flex-col md:flex-row  rounded-lg my-16">
-        <div class="text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-400">
+        <div class="text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-300 text-gray-700">
             Reuzen in Leuven
         </div>
         <div class="flex-1 grid grid-cols-2 lg:grid-cols-3 gap-1 px-4">

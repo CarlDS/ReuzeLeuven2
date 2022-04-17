@@ -22911,6 +22911,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _ReuzeLeuven_Partners_vue__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(/*! @/ReuzeLeuven/Partners.vue */ "./resources/js/ReuzeLeuven/Partners.vue");
 /* harmony import */ var _ReuzeLeuven_RlTitle_vue__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! @/ReuzeLeuven/RlTitle.vue */ "./resources/js/ReuzeLeuven/RlTitle.vue");
 /* harmony import */ var _ReuzeLeuven_ReuzenInLeuven_vue__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! @/ReuzeLeuven/ReuzenInLeuven.vue */ "./resources/js/ReuzeLeuven/ReuzenInLeuven.vue");
+/* harmony import */ var _ReuzeLeuven_ContactForm_vue__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! @/ReuzeLeuven/ContactForm.vue */ "./resources/js/ReuzeLeuven/ContactForm.vue");
+
 
 
 
@@ -22934,7 +22936,8 @@ __webpack_require__.r(__webpack_exports__);
     Intro: _ReuzeLeuven_Intro_vue__WEBPACK_IMPORTED_MODULE_7__["default"],
     Partners: _ReuzeLeuven_Partners_vue__WEBPACK_IMPORTED_MODULE_8__["default"],
     RlTitle: _ReuzeLeuven_RlTitle_vue__WEBPACK_IMPORTED_MODULE_9__["default"],
-    ReuzenInLeuven: _ReuzeLeuven_ReuzenInLeuven_vue__WEBPACK_IMPORTED_MODULE_10__["default"]
+    ReuzenInLeuven: _ReuzeLeuven_ReuzenInLeuven_vue__WEBPACK_IMPORTED_MODULE_10__["default"],
+    ContactForm: _ReuzeLeuven_ContactForm_vue__WEBPACK_IMPORTED_MODULE_11__["default"]
   },
   data: function data() {
     return {
@@ -23569,6 +23572,43 @@ __webpack_require__.r(__webpack_exports__);
     phpVersion: String
   }
 }));
+
+/***/ }),
+
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=script&lang=js":
+/*!******************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=script&lang=js ***!
+  \******************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+/* harmony import */ var _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! @inertiajs/inertia */ "./node_modules/@inertiajs/inertia/dist/index.js");
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = ({
+  setup: function setup() {
+    var form = (0,vue__WEBPACK_IMPORTED_MODULE_0__.reactive)({
+      name: null,
+      email: null,
+      subject: null,
+      message: null
+    });
+
+    function submit() {
+      _inertiajs_inertia__WEBPACK_IMPORTED_MODULE_1__.Inertia.post('/contactform', form);
+    }
+
+    return {
+      form: form,
+      submit: submit
+    };
+  }
+});
 
 /***/ }),
 
@@ -27141,9 +27181,27 @@ var _hoisted_18 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
 };
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col md:flex-row my-16\" data-v-6a63e488><img src=\"/images/fiere.jpeg\" class=\"block w-full md:w-1/2 lg:w-1/3 h-full\" data-v-6a63e488><div class=\"flex-col px-8\" data-v-6a63e488><p class=\"text-5xl font-extrabold my-4 text-gray-700\" data-v-6a63e488>U bent uitgenodigd op</p><p class=\"text-3xl font-extrabold my-4\" data-v-6a63e488>Zaterdag 21 mei - 11u</p><p class=\"text-2xl font-extrabold mt-4\" data-v-6a63e488>In de historische binnenstad van Leuven</p><p data-v-6a63e488>De optocht vertrekt om 11 uur op het <strong data-v-6a63e488>Ladeuzenplein</strong>. Eindhalte op de Werelfeesten in het <strong data-v-6a63e488>Bruulpark</strong>.</p><p data-v-6a63e488>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p></div></div>", 1);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col md:flex-row my-16\" data-v-6a63e488><img src=\"/images/fiere.jpeg\" class=\"block w-full md:w-1/2 lg:w-1/3 h-full shadow-md shadow-gray-700\" data-v-6a63e488><div class=\"flex-col px-8\" data-v-6a63e488><p class=\"text-5xl font-extrabold my-4 text-gray-700\" data-v-6a63e488>U bent uitgenodigd op</p><p class=\"text-3xl font-extrabold my-4\" data-v-6a63e488>Zaterdag 21 mei - 11u</p><p class=\"text-2xl font-extrabold mt-4\" data-v-6a63e488>In de historische binnenstad van Leuven</p><p data-v-6a63e488>De reuzenoptocht vertrekt om 11 uur op het <strong data-v-6a63e488>Ladeuzenplein</strong>. Eindhalte op de Werelfeesten in het <strong data-v-6a63e488>Bruulpark</strong>.</p><p data-v-6a63e488>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p></div></div><hr data-v-6a63e488>", 2);
 
-var _hoisted_20 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Reuzeleuven.be");
+var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", null, null, -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_22 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", null, null, -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_23 = /*#__PURE__*/_withScopeId(function () {
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", null, null, -1
+  /* HOISTED */
+  );
+});
+
+var _hoisted_24 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("Reuzeleuven.be");
 
 function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_Head = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("Head");
@@ -27165,6 +27223,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   var _component_intro = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("intro");
 
   var _component_reuzen_in_leuven = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("reuzen-in-leuven");
+
+  var _component_contact_form = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("contact-form");
 
   var _component_partners = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("partners");
 
@@ -27282,17 +27342,23 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     image: "images/jeanke.png"
   })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_count_down, {
     to: "2022-05-21 11:00:00"
-  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven, {
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro, {
+    "class": "my-16"
+  }), _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven, {
     reuzen: _ctx.reuzen,
     "class": "my-16"
   }, null, 8
   /* PROPS */
-  , ["reuzen"]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_partners)])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
+  , ["reuzen"]), _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_contact_form, {
+    "class": "my-16"
+  }), _hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_partners, {
+    "class": "my-16"
+  })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
     href: _ctx.route('home'),
     "class": "block w-full bg-red-500 text-white text-center"
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
-      return [_hoisted_20];
+      return [_hoisted_24];
     }),
     _: 1
     /* STABLE */
@@ -29119,6 +29185,123 @@ function render(_ctx, _cache) {
 
 /***/ }),
 
+/***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=template&id=04edd657":
+/*!**********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=template&id=04edd657 ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* binding */ render)
+/* harmony export */ });
+/* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
+
+var _hoisted_1 = {
+  "class": "w-4/5 mx-auto shadow-lg p-4"
+};
+
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "text-gray-700 font-bold text-3xl text-center"
+}, "Heeft u een vraag voor ons? Stel ze hier. Wij antwoorden zo spoedig mogelijk.", -1
+/* HOISTED */
+);
+
+var _hoisted_3 = {
+  "class": "my-1 flex justify-between"
+};
+
+var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+  "for": "naam"
+}, "Naam", -1
+/* HOISTED */
+);
+
+var _hoisted_5 = {
+  "class": "my-1 flex justify-between"
+};
+
+var _hoisted_6 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+  "for": "email"
+}, "e-mail", -1
+/* HOISTED */
+);
+
+var _hoisted_7 = {
+  "class": "my-1 flex justify-between"
+};
+
+var _hoisted_8 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+  "for": "subject"
+}, "Onderwerp", -1
+/* HOISTED */
+);
+
+var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
+  "class": "my-1 flex justify-between"
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("label", {
+  "for": "message"
+}, "Jouw vraag"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("textarea", {
+  rows: "10",
+  "class": "w-96 rounded-md"
+})], -1
+/* HOISTED */
+);
+
+var _hoisted_10 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("button", {
+  type: "submit",
+  "class": "self-end text-white font-bold bg-gray-700 rounded-lg border-2 border-gray-900 p-4 my-4 active:bg-gray-400 active:text-gray-700"
+}, "VERZENDEN", -1
+/* HOISTED */
+);
+
+function render(_ctx, _cache, $props, $setup, $data, $options) {
+  return (0,vue__WEBPACK_IMPORTED_MODULE_0__.openBlock)(), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementBlock)("div", _hoisted_1, [_hoisted_2, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("form", {
+    onSubmit: _cache[3] || (_cache[3] = (0,vue__WEBPACK_IMPORTED_MODULE_0__.withModifiers)(function () {
+      return $setup.submit && $setup.submit.apply($setup, arguments);
+    }, ["prevent"])),
+    "class": "flex flex-col w-2/3 mx-auto p-8"
+  }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_3, [_hoisted_4, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+    "class": "w-96 rounded-md",
+    type: "text",
+    name: "name",
+    id: "name",
+    "onUpdate:modelValue": _cache[0] || (_cache[0] = function ($event) {
+      return $setup.form.name = $event;
+    }),
+    required: ""
+  }, null, 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.name]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_5, [_hoisted_6, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+    "class": "w-96 rounded-md",
+    type: "email",
+    name: "email",
+    id: "email",
+    "onUpdate:modelValue": _cache[1] || (_cache[1] = function ($event) {
+      return $setup.form.email = $event;
+    }),
+    required: ""
+  }, null, 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.email]])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_7, [_hoisted_8, (0,vue__WEBPACK_IMPORTED_MODULE_0__.withDirectives)((0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("input", {
+    "class": "w-96 rounded-md",
+    type: "text",
+    name: "subject",
+    id: "subject",
+    "onUpdate:modelValue": _cache[2] || (_cache[2] = function ($event) {
+      return $setup.form.subject = $event;
+    }),
+    required: ""
+  }, null, 512
+  /* NEED_PATCH */
+  ), [[vue__WEBPACK_IMPORTED_MODULE_0__.vModelText, $setup.form.subject]])]), _hoisted_9, _hoisted_10], 32
+  /* HYDRATE_EVENTS */
+  )]);
+}
+
+/***/ }),
+
 /***/ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/ReuzeLeuven/CountDown.vue?vue&type=template&id=07c48fe4":
 /*!********************************************************************************************************************************************************************************************************************************************************************************!*\
   !*** ./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/ReuzeLeuven/CountDown.vue?vue&type=template&id=07c48fe4 ***!
@@ -29241,7 +29424,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var _hoisted_1 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", null, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("h1", {
-  "class": "text-4xl font-bold p-4"
+  "class": "text-4xl font-bold p-4 text-gray-700"
 }, "Reuzen")], -1
 /* HOISTED */
 );
@@ -29282,7 +29465,7 @@ var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNo
 
 var _hoisted_12 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/jan1.jpeg",
-  "class": "block w-full md:w-1/2 lg:w-1/3 h-full"
+  "class": "block w-full md:w-1/2 lg:w-1/3 h-full shadow-md shadow-gray-700"
 }, null, -1
 /* HOISTED */
 );
@@ -29385,7 +29568,7 @@ var _hoisted_1 = {
   "class": "flex flex-col md:flex-row rounded-lg my-16"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-400\"> Onze Partners </div><div class=\"flex-1 flex flex-col md:flex-row flex-wrap gap-6\"><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.cirkusinbeweging.be/\" target=\"_blank\"><img src=\"/images/CIB_doorzichtig.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"http://www.luvanium.be/\" target=\"_blank\"><img src=\"/images/logo3_luvanium.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.leuven.be/\" target=\"_blank\"><img src=\"/images/Leuven-logo.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.wereldfeest.be/\" target=\"_blank\"><img src=\"/images/wereldfeest-logo.png\" class=\"mx-auto\"><p class=\"text-center\">Wereldfeest 2022</p></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.erfgoedcelleuven.be/\" target=\"_blank\"><img src=\"/images/erfgoed-logo.png\" class=\"mx-auto\"></a></div></div>", 2);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-300 text-gray-700\"> Onze Partners </div><div class=\"flex-1 flex flex-col md:flex-row flex-wrap gap-6\"><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.cirkusinbeweging.be/\" target=\"_blank\"><img src=\"/images/CIB_doorzichtig.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"http://www.luvanium.be/\" target=\"_blank\"><img src=\"/images/logo3_luvanium.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.leuven.be/\" target=\"_blank\"><img src=\"/images/Leuven-logo.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.wereldfeest.be/\" target=\"_blank\"><img src=\"/images/wereldfeest-logo.png\" class=\"mx-auto\"><p class=\"text-center\">Wereldfeest 2022</p></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.erfgoedcelleuven.be/\" target=\"_blank\"><img src=\"/images/erfgoed-logo.png\" class=\"mx-auto\"></a></div></div>", 2);
 
 var _hoisted_4 = [_hoisted_2];
 function render(_ctx, _cache) {
@@ -29451,7 +29634,7 @@ var _hoisted_1 = {
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
-  "class": "text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-400"
+  "class": "text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-300 text-gray-700"
 }, " Reuzen in Leuven ", -1
 /* HOISTED */
 );
@@ -55396,6 +55579,34 @@ if (false) {}
 
 /***/ }),
 
+/***/ "./resources/js/ReuzeLeuven/ContactForm.vue":
+/*!**************************************************!*\
+  !*** ./resources/js/ReuzeLeuven/ContactForm.vue ***!
+  \**************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (__WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */ });
+/* harmony import */ var _ContactForm_vue_vue_type_template_id_04edd657__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! ./ContactForm.vue?vue&type=template&id=04edd657 */ "./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=template&id=04edd657");
+/* harmony import */ var _ContactForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ./ContactForm.vue?vue&type=script&lang=js */ "./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=script&lang=js");
+/* harmony import */ var _Users_carldesmedt_Programming_ReuzeLeuven_ReuzeLeuven_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ./node_modules/vue-loader/dist/exportHelper.js */ "./node_modules/vue-loader/dist/exportHelper.js");
+
+
+
+
+;
+const __exports__ = /*#__PURE__*/(0,_Users_carldesmedt_Programming_ReuzeLeuven_ReuzeLeuven_node_modules_vue_loader_dist_exportHelper_js__WEBPACK_IMPORTED_MODULE_2__["default"])(_ContactForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_1__["default"], [['render',_ContactForm_vue_vue_type_template_id_04edd657__WEBPACK_IMPORTED_MODULE_0__.render],['__file',"resources/js/ReuzeLeuven/ContactForm.vue"]])
+/* hot reload */
+if (false) {}
+
+
+/* harmony default export */ const __WEBPACK_DEFAULT_EXPORT__ = (__exports__);
+
+/***/ }),
+
 /***/ "./resources/js/ReuzeLeuven/CountDown.vue":
 /*!************************************************!*\
   !*** ./resources/js/ReuzeLeuven/CountDown.vue ***!
@@ -56350,6 +56561,22 @@ __webpack_require__.r(__webpack_exports__);
 
 /***/ }),
 
+/***/ "./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=script&lang=js":
+/*!**************************************************************************!*\
+  !*** ./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=script&lang=js ***!
+  \**************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "default": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ContactForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__["default"])
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ContactForm_vue_vue_type_script_lang_js__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./ContactForm.vue?vue&type=script&lang=js */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=script&lang=js");
+ 
+
+/***/ }),
+
 /***/ "./resources/js/ReuzeLeuven/CountDown.vue?vue&type=script&lang=js":
 /*!************************************************************************!*\
   !*** ./resources/js/ReuzeLeuven/CountDown.vue?vue&type=script&lang=js ***!
@@ -57274,6 +57501,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ApplicationMark_vue_vue_type_template_id_40a67f90__WEBPACK_IMPORTED_MODULE_0__.render)
 /* harmony export */ });
 /* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ApplicationMark_vue_vue_type_template_id_40a67f90__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./ApplicationMark.vue?vue&type=template&id=40a67f90 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/ReuzeLeuven/ApplicationMark.vue?vue&type=template&id=40a67f90");
+
+
+/***/ }),
+
+/***/ "./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=template&id=04edd657":
+/*!********************************************************************************!*\
+  !*** ./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=template&id=04edd657 ***!
+  \********************************************************************************/
+/***/ ((__unused_webpack_module, __webpack_exports__, __webpack_require__) => {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony export */ __webpack_require__.d(__webpack_exports__, {
+/* harmony export */   "render": () => (/* reexport safe */ _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ContactForm_vue_vue_type_template_id_04edd657__WEBPACK_IMPORTED_MODULE_0__.render)
+/* harmony export */ });
+/* harmony import */ var _node_modules_babel_loader_lib_index_js_clonedRuleSet_5_use_0_node_modules_vue_loader_dist_templateLoader_js_ruleSet_1_rules_2_node_modules_vue_loader_dist_index_js_ruleSet_0_use_0_ContactForm_vue_vue_type_template_id_04edd657__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! -!../../../node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!../../../node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!../../../node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./ContactForm.vue?vue&type=template&id=04edd657 */ "./node_modules/babel-loader/lib/index.js??clonedRuleSet-5.use[0]!./node_modules/vue-loader/dist/templateLoader.js??ruleSet[1].rules[2]!./node_modules/vue-loader/dist/index.js??ruleSet[0].use[0]!./resources/js/ReuzeLeuven/ContactForm.vue?vue&type=template&id=04edd657");
 
 
 /***/ }),
