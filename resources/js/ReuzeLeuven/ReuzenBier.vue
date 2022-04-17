@@ -1,8 +1,8 @@
 <template>
-    <div class="flex flex-col-reverse md:flex-row">
+    <h1 class=" text-center md:text-left text-4xl font-bold p-4 text-gray-700">Reuzebier</h1>
+    <div class="flex flex-col-reverse md:flex-row px-4">
         <img src="/images/reuzenbier.jpeg" class="">
         <div class="">
-            <h1 class="text-4xl font-bold py-4 text-gray-700">Reuzebier</h1>
             <h2 class="text-3xl font-bold py-2">Fris bier met een uniek karakter</h2>
             <h3 class="text-xl font-bold">Fris sterk blond</h3>
             <p class="pb-1">Dit fris, sterk blond bier combineert de oude Leuvense brouwgranen met de nieuwe buitenlandse hopsoorten en is daarom een heerlijke mengeling van oude tradities met nieuwe culturen. Het resultaat is een uniek, zacht, blond bier van 8,5% vol. alc. met een lekkere toets van tropisch fruit en citrus.</p>

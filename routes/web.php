@@ -88,7 +88,7 @@ Route::post('/contactform', function(Request $request){
 
     $from = $validated['email'];
     $headers   = array(
-        'From' => $validated['name'].' <'.$from.'>',
+        'From' => 'RL Web: '.$validated['name'].' <'.$from.'>',
         'Reply-To' => $from,
         'X-Mailer' => 'PHP/'.phpversion()
     );
