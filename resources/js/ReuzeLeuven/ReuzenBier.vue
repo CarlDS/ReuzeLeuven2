@@ -1,7 +1,7 @@
 <template>
     <h1 class=" text-center md:text-left text-4xl font-bold p-4 text-gray-700">Reuzebier</h1>
     <div class="flex flex-col md:flex-row px-4">
-        <img src="/images/reuzenbier.jpeg" class="w-1/2 md:w-full">
+        <img src="/images/reuzenbier.jpeg" class="w-1/2 md:w-full mx-auto">
         <div class="">
             <h2 class="text-3xl font-bold py-2">Fris bier met een uniek karakter</h2>
             <h3 class="text-xl font-bold">Fris sterk blond</h3>
