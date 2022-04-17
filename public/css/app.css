@@ -995,6 +995,10 @@ select {
   margin-top: 0.25rem;
   margin-bottom: 0.25rem;
 }
+.my-8 {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -2400,6 +2404,11 @@ select {
     grid-column: span 1 / span 1;
   }
 
+  .md\:my-16 {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
+  }
+
   .md\:mt-0 {
     margin-top: 0px;
   }
@@ -2514,6 +2523,16 @@ select {
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
+  }
+
+  .md\:text-5xl {
+    font-size: 3rem;
+    line-height: 1;
+  }
+
+  .md\:text-2xl {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 
   .md\:shadow-lg {

@@ -14,13 +14,13 @@
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ml-10 md:flex justify-end">
                             <jet-nav-link :href="route('home')" :active="route().current('home')">
-                                <strong>Reuzen</strong>
+                                <p class="text-xl font-bold">Reuzen</p>
                             </jet-nav-link>
                             <jet-nav-link :href="route('reuzeninleuven')" :active="route().current('reuzeninleuven')">
-                                <strong>Reuzen in Leuven</strong>
+                                <p class="text-xl font-bold">Reuzen in Leuven</p>
                             </jet-nav-link>
                             <jet-nav-link :href="route('reuzenbier')" :active="route().current('reuzenbier')">
-                                <strong>Reuzenbier</strong>
+                                <p class="text-xl font-bold">Reuzenbier</p>
                             </jet-nav-link>
                         </div>
                     </div>
@@ -57,23 +57,23 @@
                 <count-down to="2022-05-21 11:00:00"/>
                 <rl-title />
                 <div class="flex flex-col md:flex-row my-16">
-                    <img src="/images/RLLogo.png" class="block w-full md:w-1/2 lg:w-1/3 h-full ">
+                    <img src="/images/RLLogo.png" class="block w-2/3 lg:w-1/3 h-full mx-auto">
                     <div class="flex-col px-8">
-                        <p class="text-5xl font-extrabold my-4 text-gray-700">U bent uitgenodigd op</p>
-                        <p class="text-3xl font-extrabold my-4">Zaterdag 21 mei - 11u</p>
-                        <p class="text-2xl font-extrabold mt-4">In de historische binnenstad van Leuven</p>
+                        <p class="text-4xl md:text-5xl font-extrabold my-4 text-gray-700">U bent uitgenodigd</p>
+                        <p class="text-2xl md:text-3xl font-extrabold my-4">Zaterdag 21 mei - 11u</p>
+                        <p class="text-xl md:text-2xl font-extrabold mt-4">In de historische binnenstad van Leuven</p>
                         <p>De reuzenoptocht vertrekt om 11 uur op het <strong>Ladeuzenplein</strong>. Eindhalte op de Werelfeesten in het <strong>Bruulpark</strong>.</p>
                         <p>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p>
                     </div>
                 </div>
                 <hr>
-                <intro class="my-16"/>
+                <intro class="my-8 md:my-16"/>
                 <hr>
-                <reuzen-in-leuven :reuzen="reuzen" class="my-16"/>
+                <reuzen-in-leuven :reuzen="reuzen" class="my-8 md:my-16"/>
                 <hr>
-                <contact-form class="my-16"/>
+                <contact-form class="my-8 md:my-16"/>
                 <hr>
-                <partners class="my-16"/>
+                <partners class="my-8 md:my-16"/>
 
 
             </div>

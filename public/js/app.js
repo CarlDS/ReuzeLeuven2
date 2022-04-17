@@ -27129,19 +27129,25 @@ var _hoisted_7 = {
 };
 
 var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Reuzen", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-xl font-bold"
+  }, "Reuzen", -1
   /* HOISTED */
   );
 });
 
 var _hoisted_9 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Reuzen in Leuven", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-xl font-bold"
+  }, "Reuzen in Leuven", -1
   /* HOISTED */
   );
 });
 
 var _hoisted_10 = /*#__PURE__*/_withScopeId(function () {
-  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("strong", null, "Reuzenbier", -1
+  return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
+    "class": "text-xl font-bold"
+  }, "Reuzenbier", -1
   /* HOISTED */
   );
 });
@@ -27181,7 +27187,7 @@ var _hoisted_18 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
 };
 
-var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col md:flex-row my-16\" data-v-6a63e488><img src=\"/images/RLLogo.png\" class=\"block w-full md:w-1/2 lg:w-1/3 h-full\" data-v-6a63e488><div class=\"flex-col px-8\" data-v-6a63e488><p class=\"text-5xl font-extrabold my-4 text-gray-700\" data-v-6a63e488>U bent uitgenodigd op</p><p class=\"text-3xl font-extrabold my-4\" data-v-6a63e488>Zaterdag 21 mei - 11u</p><p class=\"text-2xl font-extrabold mt-4\" data-v-6a63e488>In de historische binnenstad van Leuven</p><p data-v-6a63e488>De reuzenoptocht vertrekt om 11 uur op het <strong data-v-6a63e488>Ladeuzenplein</strong>. Eindhalte op de Werelfeesten in het <strong data-v-6a63e488>Bruulpark</strong>.</p><p data-v-6a63e488>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p></div></div><hr data-v-6a63e488>", 2);
+var _hoisted_19 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col md:flex-row my-16\" data-v-6a63e488><img src=\"/images/RLLogo.png\" class=\"block w-2/3 lg:w-1/3 h-full mx-auto\" data-v-6a63e488><div class=\"flex-col px-8\" data-v-6a63e488><p class=\"text-4xl md:text-5xl font-extrabold my-4 text-gray-700\" data-v-6a63e488>U bent uitgenodigd</p><p class=\"text-2xl md:text-3xl font-extrabold my-4\" data-v-6a63e488>Zaterdag 21 mei - 11u</p><p class=\"text-xl md:text-2xl font-extrabold mt-4\" data-v-6a63e488>In de historische binnenstad van Leuven</p><p data-v-6a63e488>De reuzenoptocht vertrekt om 11 uur op het <strong data-v-6a63e488>Ladeuzenplein</strong>. Eindhalte op de Werelfeesten in het <strong data-v-6a63e488>Bruulpark</strong>.</p><p data-v-6a63e488>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p></div></div><hr data-v-6a63e488>", 2);
 
 var _hoisted_21 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("hr", null, null, -1
@@ -27343,16 +27349,16 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   })]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_18, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_count_down, {
     to: "2022-05-21 11:00:00"
   }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), _hoisted_19, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro, {
-    "class": "my-16"
+    "class": "my-8 md:my-16"
   }), _hoisted_21, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_reuzen_in_leuven, {
     reuzen: _ctx.reuzen,
-    "class": "my-16"
+    "class": "my-8 md:my-16"
   }, null, 8
   /* PROPS */
   , ["reuzen"]), _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_contact_form, {
-    "class": "my-16"
+    "class": "my-8 md:my-16"
   }), _hoisted_23, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_partners, {
-    "class": "my-16"
+    "class": "my-8 md:my-16"
   })])]), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_Link, {
     href: _ctx.route('home'),
     "class": "block w-full bg-red-500 text-white text-center"
@@ -29445,7 +29451,7 @@ var _hoisted_3 = {
   "class": "flex-col"
 };
 var _hoisted_4 = {
-  "class": "text-gray-800 px-4 pb-4"
+  "class": "text-gray-800 px-4 py-4"
 };
 
 var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen bestaan in alle maten en gewichten. In de eerste plaats staan reuzen natuurlijk bekend om hun grote lengte. Niet alle reuzen zijn echter zo gigantisch. Er zijn bijvoorbeeld ook heel wat reuzen die kinderen voorstellen en een stuk kleiner zijn.");
@@ -29461,13 +29467,13 @@ var _hoisted_8 = {
 };
 
 var _hoisted_9 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", {
-  "class": "text-gray-800 px-4 pb-4"
+  "class": "text-gray-800 px-4 py-4"
 }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" De levensloop van reuzen vertoont veel gelijkenissen met die van mensen. Zo gaat de “geboorte” van een nieuwe reus bijvoorbeeld vaak gepaard met een aantal geboorterituelen. Een nieuwe reus wordt meestal met een plechtige viering gedoopt. Verder krijgt een reus - net zoals een mensenkind - ook een peter en een meter, die beloven dat ze voor hem zullen zorgen en over zijn toekomst zullen waken. Aan de doopviering wordt vaak ook een stoet gekoppeld, waar ook andere reuzen in meewandelen.Soms trekt de stoet naar het gemeentehuis, om er op ludieke wijze aangifte te doen van de nieuwe inwoner. Vaak gaat dit gepaard met het opstellen van een heuse geboorteakte. "), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <button v-if=\"!meerinfo\" class=\"px-4 text-red-500\" @click=\"meerInfo\">Meer info</button> ")], -1
 /* HOISTED */
 );
 
 var _hoisted_10 = {
-  "class": "text-gray-800 px-4 pb-4"
+  "class": "text-gray-800 px-4 py-4"
 };
 
 var _hoisted_11 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)(" Reuzen kunnen verder ook huwen en kinderen krijgen. In tegenstelling tot mensen hoeven zij zich daarbij niet te houden aan wettelijke verplichtingen en aan natuurlijke beperkingen zijn ze evenmin onderworpen. Het is bijvoorbeeld goed mogelijk dat een reus op een en dezelfde dag geboren en gedoopt wordt en in het huwelijksbootje stapt. Bepaalde gemeenten bezitten meerdere reuzen, die samen een of meerdere reuzenfamilie(s) vormen. Soms wordt er zelfs een grootvader -of moeder in de familie aangeduid en net zoals bij mensen gebeurt het wel eens dat er een jubileum gevierd wordt. Het komt ook voor dat reuzen als ambassadeurs van hun gemeente een eretitel toegekend krijgen, die dan met een erelint of medaille op de romp van de reus voor iedereen zichtbaar wordt gemaakt. ");
@@ -29706,7 +29712,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "text-5xl md:text-6xl lg:text-7xl p-2 text-gray-500 font-bold mt-12"
+  "class": "text-4xl text-center md:text-left md:text-6xl lg:text-7xl p-2 text-gray-500 font-bold mt-12"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
