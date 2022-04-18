@@ -27281,6 +27281,8 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
 
   var _component_intro_banner = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("intro-banner");
 
+  var _component_count_down = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("count-down");
+
   var _component_rl_title = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("rl-title");
 
   var _component_intro = (0,vue__WEBPACK_IMPORTED_MODULE_0__.resolveComponent)("intro");
@@ -27445,7 +27447,9 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     image: "images/jeanke.png"
   })], 512
   /* NEED_PATCH */
-  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createCommentVNode)(" <count-down to=\"2022-05-21 11:00:00\"/> "), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, null, 512
+  ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("main", null, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_21, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_count_down, {
+    to: "2022-05-21 11:00:00"
+  }), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_rl_title), _hoisted_22, (0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_24, null, 512
   /* NEED_PATCH */
   ), (0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_intro, {
     "class": "my-8 md:my-16"
@@ -29324,7 +29328,7 @@ var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 
 var _hoisted_3 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
   "class": "text-gray-700 font-bold text-3xl text-center"
-}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Heeft u een vraag voor ons?"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Stel ze hier."), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Wij antwoorden zo spoedig mogelijk.")], -1
+}, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Heeft u een vraag voor ons?"), /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("p", null, "Stel ze hier.")], -1
 /* HOISTED */
 );
 

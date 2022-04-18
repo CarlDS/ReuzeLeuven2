@@ -64,7 +64,7 @@
         <main>
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 
-                <!-- <count-down to="2022-05-21 11:00:00"/> -->
+                <count-down to="2022-05-21 11:00:00"/>
                 <rl-title />
                 <div class="flex flex-col md:flex-row my-16">
                     <img src="/images/RLLogo.png" class="block w-2/3 lg:w-1/3 h-full mx-auto">
