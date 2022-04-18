@@ -19,7 +19,7 @@ use Inertia\Inertia;
 */
 
 Route::get('/{tag?}', function ($tag = 'start') {
-    $reuzen = Reus::all();
+    $reuzen = Reus::orderBy('volg','asc')->get();
     foreach ($reuzen as $reus){
         $reus->grid = $reus->gridImage($reus->grid_image_id);
         $reus->gridImage($reus->grid_image_id);
@@ -40,7 +40,7 @@ Route::get('/{tag?}', function ($tag = 'start') {
 
 
 Route::get('/reuzen/{slug}', function ($slug) {
-    $reuzen = Reus::all()->orderBy('volg');
+    $reuzen = Reus::orderBy('volg', 'asc')->get();
     foreach ($reuzen as $reus){
         $reus->grid = $reus->gridImage($reus->grid_image_id);
         $reus->gridImage($reus->grid_image_id);
