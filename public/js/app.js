@@ -27149,7 +27149,7 @@ var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
 });
 
 var _hoisted_7 = {
-  "class": "hidden space-x-8 sm:-my-px sm:ml-10 md:flex justify-end"
+  "class": "hidden space-x-8 sm:-my-px sm:ml-10 lg:flex justify-end"
 };
 
 var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
@@ -27185,7 +27185,7 @@ var _hoisted_11 = /*#__PURE__*/_withScopeId(function () {
 });
 
 var _hoisted_12 = {
-  "class": "-mr-2 flex items-center md:hidden"
+  "class": "-mr-2 flex items-center lg:hidden"
 };
 var _hoisted_13 = {
   "class": "h-6 w-6",
@@ -27390,7 +27390,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
     "class": (0,vue__WEBPACK_IMPORTED_MODULE_0__.normalizeClass)([{
       'block': _ctx.showingNavigationDropdown,
       'hidden': !_ctx.showingNavigationDropdown
-    }, "md:hidden"])
+    }, "lg:hidden"])
   }, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", _hoisted_14, [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_responsive_nav_link, {
     href: _ctx.route('reuzen'),
     active: _ctx.route().current('reuzen')

@@ -12,7 +12,7 @@
                                 <div class=" text-base text-center md:text-left md:text-3xl font-extrabold ml-8">ReuzeLeuven 2022</div>
                             </Link>
                         </div>
-                        <div class="hidden space-x-8 sm:-my-px sm:ml-10 md:flex justify-end">
+                        <div class="hidden space-x-8 sm:-my-px sm:ml-10 lg:flex justify-end">
                             <jet-nav-link :href="route('reuzen')" :active="route().current('home')">
                                 <p class="text-xl font-bold">Reuzen</p>
                             </jet-nav-link>
@@ -28,7 +28,7 @@
 
                         </div>
                     </div>
-                    <div class="-mr-2 flex items-center md:hidden">
+                    <div class="-mr-2 flex items-center lg:hidden">
                         <button @click="showingNavigationDropdown = ! showingNavigationDropdown" class="inline-flex items-center justify-center p-2 rounded-md text-white hover:text-white hover:bg-red-500 focus:outline-none focus:bg-red-500 focus:text-white transition">
                             <svg class="h-6 w-6" stroke="currentColor" fill="none" viewBox="0 0 24 24">
                                 <path :class="{'hidden': showingNavigationDropdown, 'inline-flex': ! showingNavigationDropdown }" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16" />
@@ -38,7 +38,7 @@
                     </div>
                 </div>
             </div>
-            <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="md:hidden">
+            <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="lg:hidden">
                 <div class="pt-2 pb-3 space-y-1 bg-red-500">
                     <jet-responsive-nav-link :href="route('reuzen')" :active="route().current('reuzen')">
                         Reuzen
