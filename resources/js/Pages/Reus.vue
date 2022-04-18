@@ -2,7 +2,7 @@
     <Head title="ReuzeLeuven" />
 
     <div class="min-h-screen bg-gray-100 dark:bg-gray-300">
-        <nav class="w-full max-h-48 bg-red-500 fixed top-0 text-white z-40">
+        <nav class="w-full max-h-48 bg-red-500 fixed top-0 text-white z-40" ref="nav">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between ">
                     <div class="flex justify-between w-full">
@@ -13,15 +13,19 @@
                             </Link>
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ml-10 md:flex justify-end">
-                            <jet-nav-link :href="route('home')" :active="route().current('home')">
-                                <strong>Reuzen</strong>
+                            <jet-nav-link :href="route('reuzen')" :active="route().current('home')">
+                                <p class="text-xl font-bold">Reuzen</p>
                             </jet-nav-link>
                             <jet-nav-link :href="route('reuzeninleuven')" :active="route().current('reuzeninleuven')">
-                                <strong>Reuzen in Leuven</strong>
+                                <p class="text-xl font-bold">Reuzen in Leuven</p>
                             </jet-nav-link>
                             <jet-nav-link :href="route('reuzenbier')" :active="route().current('reuzenbier')">
-                                <strong>Reuzenbier</strong>
+                                <p class="text-xl font-bold">Reuzebier</p>
                             </jet-nav-link>
+                            <jet-nav-link :href="route('contact')" :active="route().current('contact')">
+                                <p class="text-xl font-bold">Contact</p>
+                            </jet-nav-link>
+
                         </div>
                     </div>
                     <div class="-mr-2 flex items-center md:hidden">
@@ -36,11 +40,17 @@
             </div>
             <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="md:hidden">
                 <div class="pt-2 pb-3 space-y-1 bg-red-500">
+                    <jet-responsive-nav-link :href="route('reuzen')" :active="route().current('reuzen')">
+                        Reuzen
+                    </jet-responsive-nav-link>
                     <jet-responsive-nav-link :href="route('reuzeninleuven')" :active="route().current('reuzeninleuven')">
                         Reuzen in Leuven
                     </jet-responsive-nav-link>
                     <jet-responsive-nav-link :href="route('reuzenbier')" :active="route().current('reuzenbier')">
-                        Reuzenbier
+                        Reuzebier
+                    </jet-responsive-nav-link>
+                    <jet-responsive-nav-link :href="route('contact')" :active="route().current('contact')">
+                        Contact
                     </jet-responsive-nav-link>
                 </div>
             </div>
