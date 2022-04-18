@@ -9,7 +9,7 @@
                         <div>
                             <Link :href="route('home')" class="shrink-0 flex flex-row items-center  m-3">
                                 <jet-application-mark class="block h-20 sm:h-24 w-20 sm:w-24" />
-                                <div class=" text-base text-center md:text-left md:text-3xl font-extrabold ml-8">ReuzeLeuven 2022</div>
+                                <div class=" text-base text-center md:text-left md:text-3xl font-extrabold ml-8">ReuzeLeuven</div>
                             </Link>
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ml-10 lg:flex justify-end">

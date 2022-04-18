@@ -27143,7 +27143,7 @@ var _hoisted_5 = {
 var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "text-base text-center md:text-left md:text-3xl font-extrabold ml-8"
-  }, "ReuzeLeuven 2022", -1
+  }, "ReuzeLeuven", -1
   /* HOISTED */
   );
 });
@@ -28623,7 +28623,7 @@ var _hoisted_5 = {
 var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "text-base text-center md:text-left md:text-3xl font-extrabold ml-8"
-  }, "ReuzeLeuven 2022", -1
+  }, "ReuzeLeuven", -1
   /* HOISTED */
   );
 });
@@ -29951,7 +29951,7 @@ var _hoisted_4 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementV
 /* HOISTED */
 );
 
-var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("euven 2022 ");
+var _hoisted_5 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createTextVNode)("euven ");
 
 var _hoisted_6 = [_hoisted_2, _hoisted_3, _hoisted_4, _hoisted_5];
 function render(_ctx, _cache, $props, $setup, $data, $options) {
