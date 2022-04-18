@@ -40,7 +40,7 @@ Route::get('/{tag?}', function ($tag = 'start') {
 
 
 Route::get('/reuzen/{slug}', function ($slug) {
-    $reuzen = Reus::all();
+    $reuzen = Reus::all()->orderBy('volg');
     foreach ($reuzen as $reus){
         $reus->grid = $reus->gridImage($reus->grid_image_id);
         $reus->gridImage($reus->grid_image_id);
