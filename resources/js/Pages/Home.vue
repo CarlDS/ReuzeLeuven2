@@ -2,7 +2,7 @@
     <Head title="ReuzeLeuven" />
 
     <div class="min-h-screen bg-white dark:bg-white">
-        <nav class="w-full max-h-48 bg-red-500 fixed top-0 text-white z-40">
+        <nav class="w-full max-h-48 bg-red-500 fixed top-0 text-white z-40" ref="nav">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                 <div class="flex justify-between ">
                     <div class="flex justify-between w-full">
@@ -13,15 +13,19 @@
                             </Link>
                         </div>
                         <div class="hidden space-x-8 sm:-my-px sm:ml-10 md:flex justify-end">
-                            <jet-nav-link :href="route('home')" :active="route().current('home')">
+                            <jet-nav-link :href="route('reuzen')" :active="route().current('home')">
                                 <p class="text-xl font-bold">Reuzen</p>
                             </jet-nav-link>
                             <jet-nav-link :href="route('reuzeninleuven')" :active="route().current('reuzeninleuven')">
                                 <p class="text-xl font-bold">Reuzen in Leuven</p>
                             </jet-nav-link>
                             <jet-nav-link :href="route('reuzenbier')" :active="route().current('reuzenbier')">
-                                <p class="text-xl font-bold">Reuzenbier</p>
+                                <p class="text-xl font-bold">Reuzebier</p>
                             </jet-nav-link>
+                            <jet-nav-link :href="route('contact')" :active="route().current('contact')">
+                                <p class="text-xl font-bold">Contact</p>
+                            </jet-nav-link>
+
                         </div>
                     </div>
                     <div class="-mr-2 flex items-center md:hidden">
@@ -36,16 +40,22 @@
             </div>
             <div :class="{'block': showingNavigationDropdown, 'hidden': ! showingNavigationDropdown}" class="md:hidden">
                 <div class="pt-2 pb-3 space-y-1 bg-red-500">
+                    <jet-responsive-nav-link :href="route('reuzen')" :active="route().current('reuzen')">
+                        Reuzen
+                    </jet-responsive-nav-link>
                     <jet-responsive-nav-link :href="route('reuzeninleuven')" :active="route().current('reuzeninleuven')">
                         Reuzen in Leuven
                     </jet-responsive-nav-link>
                     <jet-responsive-nav-link :href="route('reuzenbier')" :active="route().current('reuzenbier')">
-                        Reuzenbier
+                        Reuzebier
+                    </jet-responsive-nav-link>
+                    <jet-responsive-nav-link :href="route('contact')" :active="route().current('contact')">
+                        Contact
                     </jet-responsive-nav-link>
                 </div>
             </div>
         </nav>
-        <header class="bg-white shadow mt-28 ">
+        <header class="bg-white shadow mt-28 " ref="start">
             <div class="hidden md:block max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
                 <span class="text-3xl text-center">ReuzeLeuven 21 mei 2022</span>
             </div>
@@ -54,7 +64,7 @@
         <main>
             <div class="max-w-7xl mx-auto sm:px-6 lg:px-8">
 
-                <count-down to="2022-05-21 11:00:00"/>
+                <!-- <count-down to="2022-05-21 11:00:00"/> -->
                 <rl-title />
                 <div class="flex flex-col md:flex-row my-16">
                     <img src="/images/RLLogo.png" class="block w-2/3 lg:w-1/3 h-full mx-auto">
@@ -66,13 +76,13 @@
                         <p>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p>
                     </div>
                 </div>
-                <hr>
+                <hr><div ref="reuzen"></div>
                 <intro class="my-8 md:my-16"/>
-                <hr>
+                <hr><div ref="reuzen-in-leuven"></div>
                 <reuzen-in-leuven :reuzen="reuzen" class="my-8 md:my-16"/>
-                <hr>
+                <hr><div ref="reuzenbier"></div>
                 <reuzen-bier />
-                <hr>
+                <hr><div ref="contact"></div>
                 <contact-form class="my-8 md:my-16"/>
                 <hr>
                 <partners class="my-8 md:my-16"/>
@@ -194,6 +204,17 @@
             laravelVersion: String,
             phpVersion: String,
             reuzen: Array,
+            tag: String,
+
+        },
+        mounted(){
+            if(this.tag){
+                var top = this.$refs[this.tag].offsetTop - this.$refs['nav'].offsetHeight;
+                setTimeout(function(){window.scrollTo(0,top);},10);
+            }
+            else{
+                console.log('no tag');
+            }
 
         }
     })

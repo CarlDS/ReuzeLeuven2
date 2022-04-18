@@ -39,8 +39,8 @@ export default defineComponent({
             }
         }
     },
-    created() {
-        this.countDownTimer()
+    mounted() {
+        this.countDownTimer();
     }
 
 

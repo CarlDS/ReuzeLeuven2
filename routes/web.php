@@ -18,7 +18,7 @@ use Inertia\Inertia;
 |
 */
 
-Route::get('/', function () {
+Route::get('/{tag?}', function ($tag = 'start') {
     $reuzen = Reus::all();
     foreach ($reuzen as $reus){
         $reus->grid = $reus->gridImage($reus->grid_image_id);
@@ -32,9 +32,12 @@ Route::get('/', function () {
         'laravelVersion' => Application::VERSION,
         'phpVersion' => PHP_VERSION,
         'reuzen' => $reuzen,
+        'tag' => $tag,
 
     ]);
 })->name('home');
+
+
 
 Route::get('/reuzen/{slug}', function ($slug) {
     $reuzen = Reus::all();
@@ -67,12 +70,13 @@ Route::get('/reuzen/{slug}', function ($slug) {
 })->name('reus');
 
 Route::get('/reuzen', function(){
-    return redirect(route('reus','da-tong'));
+})->name('reuzen');
+Route::get('/reuzen-in-leuven', function(){
 })->name('reuzeninleuven');
-
 Route::get('/reuzenbier', function(){
-    dd('reuzenbier');
 })->name('reuzenbier');
+Route::get('/contact', function(){
+})->name('contact');
 
 Route::post('/contactform', function(Request $request){
     $validated = $request->validate([
