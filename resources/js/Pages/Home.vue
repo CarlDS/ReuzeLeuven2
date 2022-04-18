@@ -57,7 +57,7 @@
         </nav>
         <header class="bg-white shadow mt-28 " ref="start">
             <div class="hidden md:block max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8">
-                <span class="text-3xl text-center">ReuzeLeuven 21 mei 2022</span>
+                <span class="text-2xl font-bold text-center">Volgende editie ReuzeLeuven op 21 mei 2022</span>
             </div>
             <intro-banner image="images/jeanke.png"/>
         </header>

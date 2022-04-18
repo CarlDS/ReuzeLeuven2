@@ -27214,8 +27214,8 @@ var _hoisted_20 = /*#__PURE__*/_withScopeId(function () {
   return /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("div", {
     "class": "hidden md:block max-w-7xl mx-auto py-6 px-4 sm:px-6 lg:px-8"
   }, [/*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("span", {
-    "class": "text-3xl text-center"
-  }, "ReuzeLeuven 21 mei 2022")], -1
+    "class": "text-2xl font-bold text-center"
+  }, "Volgende editie ReuzeLeuven op 21 mei 2022")], -1
   /* HOISTED */
   );
 });
