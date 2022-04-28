@@ -72,7 +72,7 @@
                         <p class="text-4xl md:text-5xl font-extrabold my-4 text-gray-700">U bent welkom</p>
                         <p class="text-2xl md:text-3xl font-extrabold my-4">Zaterdag 21 mei - 14u</p>
                         <p class="text-xl md:text-2xl font-extrabold mt-4">In de historische binnenstad van Leuven</p>
-                        <p>De reuzenoptocht vertrekt om 11 uur op het <strong>Martelarenplein</strong>. Eindhalte op het Wereldfeest in het <strong>Bruulpark</strong>.</p>
+                        <p>De reuzenoptocht vertrekt om 14 uur op het <strong>Martelarenplein</strong>. Eindhalte op het Wereldfeest in het <strong>Bruulpark</strong>.</p>
                         <p>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p>
                     </div>
                 </div>

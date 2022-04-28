@@ -86,13 +86,13 @@ Route::post('/contactform', function(Request $request){
         'message' => 'required',
     ]);
 
-    $to = 'carl.desmedt@icloud.com';
-    $subject = "RL-webform: {$validated['subject']}" ;
+    $to = 'info@reuzeleuven.be';
+    $subject = "ReuzeLeuven Webform: {$validated['subject']}" ;
     $message = $validated['message'];
 
     $from = $validated['email'];
     $headers   = array(
-        'From' => 'RL Web: '.$validated['name'].' <'.$from.'>',
+        'From' => $validated['name'].' <'.$from.'>',
         'Reply-To' => $from,
         'X-Mailer' => 'PHP/'.phpversion()
     );
