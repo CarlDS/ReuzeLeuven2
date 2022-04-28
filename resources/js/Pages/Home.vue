@@ -8,7 +8,7 @@
                     <div class="flex justify-between w-full">
                         <div>
                             <Link :href="route('home')" class="shrink-0 flex flex-row items-center  m-3">
-                                <jet-application-mark class="block h-20 sm:h-24 " />
+                                <jet-application-mark class="block " />
                                 <div class=" text-base text-center md:text-left md:text-3xl font-extrabold ml-8">ReuzeLeuven</div>
                             </Link>
                         </div>
