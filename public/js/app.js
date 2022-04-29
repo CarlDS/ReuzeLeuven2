@@ -27224,7 +27224,7 @@ var _hoisted_21 = {
   "class": "max-w-7xl mx-auto sm:px-6 lg:px-8"
 };
 
-var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col md:flex-row my-16\" data-v-6a63e488><img src=\"/images/RLLogo.png\" class=\"block w-2/3 lg:w-1/3 h-full mx-auto\" data-v-6a63e488><div class=\"flex-col px-8\" data-v-6a63e488><p class=\"text-4xl md:text-5xl font-extrabold my-4 text-gray-700\" data-v-6a63e488>U bent welkom</p><p class=\"text-2xl md:text-3xl font-extrabold my-4\" data-v-6a63e488>Zaterdag 21 mei - 14u</p><p class=\"text-xl md:text-2xl font-extrabold mt-4\" data-v-6a63e488>In de historische binnenstad van Leuven</p><p data-v-6a63e488>De reuzenoptocht vertrekt om 11 uur op het <strong data-v-6a63e488>Martelarenplein</strong>. Eindhalte op het Wereldfeest in het <strong data-v-6a63e488>Bruulpark</strong>.</p><p data-v-6a63e488>U bent van harte uitgenodigd langsheen het parcours mee te dansen met de reuzen</p></div></div><hr data-v-6a63e488>", 2);
+var _hoisted_22 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"flex flex-col md:flex-row my-16\" data-v-6a63e488><img src=\"/images/RLLogo.png\" class=\"block w-2/3 lg:w-1/3 h-full mx-auto\" data-v-6a63e488><div class=\"flex-col px-8\" data-v-6a63e488><p class=\"text-4xl md:text-5xl font-extrabold my-4 text-gray-700\" data-v-6a63e488>U bent welkom</p><p class=\"text-2xl md:text-3xl font-extrabold my-4\" data-v-6a63e488></p><p class=\"text-xl md:text-2xl font-extrabold mt-4\" data-v-6a63e488>In de historische binnenstad van Leuven</p><p data-v-6a63e488>De reuzenoptocht vertrekt om 14 uur op het <strong data-v-6a63e488>Martelarenplein</strong>. Eindhalte op het Wereldfeest in het <strong data-v-6a63e488>Bruulpark</strong>.</p><p data-v-6a63e488>U bent van harte uitgenodigd langsheen het parcours om de dansende reuzen te bekijken.</p></div></div><hr data-v-6a63e488>", 2);
 
 var _hoisted_24 = {
   ref: "reuzen"
@@ -27303,7 +27303,7 @@ function render(_ctx, _cache, $props, $setup, $data, $options) {
   }, {
     "default": (0,vue__WEBPACK_IMPORTED_MODULE_0__.withCtx)(function () {
       return [(0,vue__WEBPACK_IMPORTED_MODULE_0__.createVNode)(_component_jet_application_mark, {
-        "class": "block h-20 sm:h-24 w-20 sm:w-24"
+        "class": "block"
       }), _hoisted_6];
     }),
     _: 1
@@ -29339,12 +29339,12 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var vue__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! vue */ "./node_modules/vue/dist/vue.esm-bundler.js");
 
 var _hoisted_1 = {
-  "class": "rounded-full bg-white p-2"
+  "class": "h-20 w-20 rounded-full bg-white p-1"
 };
 
 var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createElementVNode)("img", {
   src: "/images/RLLogo.png",
-  "class": "h-full w-full",
+  "class": "h-full w-auto mx-auto my-auto",
   alt: ""
 }, null, -1
 /* HOISTED */
@@ -29783,7 +29783,7 @@ var _hoisted_1 = {
   "class": "flex flex-col md:flex-row rounded-lg my-16"
 };
 
-var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-300 text-gray-700\"> Onze Partners </div><div class=\"flex-1 flex flex-col md:flex-row flex-wrap gap-6\"><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.cirkusinbeweging.be/\" target=\"_blank\"><img src=\"/images/CIB_doorzichtig.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"http://www.luvanium.be/\" target=\"_blank\"><img src=\"/images/logo3_luvanium.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.leuven.be/\" target=\"_blank\"><img src=\"/images/Leuven-logo.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.wereldfeest.be/\" target=\"_blank\"><img src=\"/images/wereldfeest-logo.png\" class=\"mx-auto\"><p class=\"text-center\">Wereldfeest 2022</p></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.erfgoedcelleuven.be/\" target=\"_blank\"><img src=\"/images/erfgoed-logo.png\" class=\"mx-auto\"></a></div></div>", 2);
+var _hoisted_2 = /*#__PURE__*/(0,vue__WEBPACK_IMPORTED_MODULE_0__.createStaticVNode)("<div class=\"text-4xl py-8 px-4 text-center lg:text-left font-bold w-full md:w-1/2 lg:w-1/3 shrink-0 md:border-r-2 md:border-gray-300 text-gray-700\"> Onze Partners </div><div class=\"flex-1 flex flex-col md:flex-row flex-wrap gap-6\"><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.cirkusinbeweging.be/\" target=\"_blank\"><img src=\"/images/CIB_doorzichtig.png\" class=\"mx-auto mb-2\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"http://www.luvanium.be/\" target=\"_blank\"><img src=\"/images/logo3_luvanium.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.leuven.be/\" target=\"_blank\"><img src=\"/images/Leuven-logo.png\" class=\"mx-auto\"></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.wereldfeest.be/\" target=\"_blank\"><img src=\"/images/wereldfeest-logo.png\" class=\"mx-auto\"><p class=\"text-center\">Wereldfeest 2022</p></a></div><div class=\"w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto\"><a href=\"https://www.erfgoedcelleuven.be/\" target=\"_blank\"><img src=\"/images/erfgoed-logo.png\" class=\"mx-auto\"></a></div></div>", 2);
 
 var _hoisted_4 = [_hoisted_2];
 function render(_ctx, _cache) {
