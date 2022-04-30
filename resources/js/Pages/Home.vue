@@ -1,6 +1,5 @@
 <template>
     <Head title="ReuzeLeuven" />
-
     <div class="min-h-screen bg-white dark:bg-white">
         <nav class="w-full max-h-48 bg-red-500 fixed top-0 text-white z-40" ref="nav">
             <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
