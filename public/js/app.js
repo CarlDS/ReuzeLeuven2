@@ -27149,7 +27149,7 @@ var _hoisted_6 = /*#__PURE__*/_withScopeId(function () {
 });
 
 var _hoisted_7 = {
-  "class": "hidden space-x-8 sm:-my-px sm:ml-10 lg:flex justify-end"
+  "class": "hidden space-x-8 sm:-my-px sm:ml-10 lg:flex justify"
 };
 
 var _hoisted_8 = /*#__PURE__*/_withScopeId(function () {
