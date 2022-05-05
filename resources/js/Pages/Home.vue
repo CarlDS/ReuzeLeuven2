@@ -11,7 +11,7 @@
                                 <div class=" text-base text-center md:text-left md:text-3xl font-extrabold ml-8">ReuzeLeuven</div>
                             </Link>
                         </div>
-                        <div class="hidden space-x-8 sm:-my-px sm:ml-10 lg:flex justify">
+                        <div class="hidden space-x-8 sm:-my-px sm:ml-10 lg:flex justify-end">
                             <jet-nav-link :href="route('reuzen')" :active="route().current('home')">
                                 <p class="text-xl font-bold">Reuzen</p>
                             </jet-nav-link>
