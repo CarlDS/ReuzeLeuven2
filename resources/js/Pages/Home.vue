@@ -74,7 +74,7 @@
                         <p>De reuzenoptocht vertrekt om 14 uur op het <strong>Martelarenplein</strong>. Eindhalte op het Wereldfeest in het <strong>Bruulpark</strong>.</p>
                         <p class="my-3">U bent van harte uitgenodigd langsheen het parcours om de dansende reuzen te bekijken.</p>
                         <div class="my-3">
-                            <iframe src="https://www.google.com/maps/d/embed?mid=1xEwl9UAwFKXtKtd6Vr8qy3pGZ5etCtSK&ehbc=2E312F" width="520" class="hidden md:block mx-auto aspect-video flex-shrink"></iframe>
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1xEwl9UAwFKXtKtd6Vr8qy3pGZ5etCtSK&ehbc=2E312F"  class=" w-full hidden md:block mx-auto aspect-video flex-shrink"></iframe>
                             <a href="https://www.google.com/maps/d/embed?mid=1xEwl9UAwFKXtKtd6Vr8qy3pGZ5etCtSK&ehbc=2E312F" class="md:hidden"><button class="bg-red-500 text-white p-2 rounded-full text-sm font-bold">Bekijk hier het parcours</button></a>
                         </div>
                     </div>
