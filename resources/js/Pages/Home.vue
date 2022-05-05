@@ -65,14 +65,18 @@
 
                 <count-down to="2022-05-21 14:00:00"/>
                 <rl-title />
-                <div class="flex flex-col md:flex-row my-16">
+                <div class="flex flex-col md:flex-row my-16 drop-shadow-2xl rounded-lg border-red-500 border-8 outline outline-offset-2 outline-0 md:outline-2  outline-red-500 p-5">
                     <img src="/images/RLLogo.png" class="block w-2/3 lg:w-1/3 h-full mx-auto">
                     <div class="flex-col px-8">
                         <p class="text-4xl md:text-5xl font-extrabold my-4 text-gray-700">U bent welkom</p>
                         <p class="text-2xl md:text-3xl font-extrabold my-4"></p>
                         <p class="text-xl md:text-2xl font-extrabold mt-4">In de historische binnenstad van Leuven</p>
                         <p>De reuzenoptocht vertrekt om 14 uur op het <strong>Martelarenplein</strong>. Eindhalte op het Wereldfeest in het <strong>Bruulpark</strong>.</p>
-                        <p>U bent van harte uitgenodigd langsheen het parcours om de dansende reuzen te bekijken.</p>
+                        <p class="my-3">U bent van harte uitgenodigd langsheen het parcours om de dansende reuzen te bekijken.</p>
+                        <div class="my-3">
+                            <iframe src="https://www.google.com/maps/d/embed?mid=1xEwl9UAwFKXtKtd6Vr8qy3pGZ5etCtSK&ehbc=2E312F" width="520" class="hidden md:block mx-auto aspect-video flex-shrink"></iframe>
+                            <a href="https://www.google.com/maps/d/embed?mid=1xEwl9UAwFKXtKtd6Vr8qy3pGZ5etCtSK&ehbc=2E312F" class="md:hidden"><button class="bg-red-500 text-white p-2 rounded-full text-sm font-bold">Bekijk hier het parcours</button></a>
+                        </div>
                     </div>
                 </div>
                 <hr><div ref="reuzen"></div>
