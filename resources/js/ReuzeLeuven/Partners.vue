@@ -5,6 +5,11 @@
     </div>
     <div class="flex-1 flex flex-col md:flex-row flex-wrap gap-6">
         <div class="w-1/2 md:w-1/3 lg:w-1/4  mx-auto my-auto">
+            <a href="https://www.dewasstraat.be/" target="_blank">
+                <img src="/images/dewasstraat.png" class="mx-auto mb-2">
+            </a>
+        </div>
+        <div class="w-1/2 md:w-1/3 lg:w-1/4  mx-auto my-auto">
             <a href="https://www.cirkusinbeweging.be/" target="_blank">
                 <img src="/images/CIB_doorzichtig.png" class="mx-auto mb-2">
             </a>
