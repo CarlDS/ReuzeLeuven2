@@ -1,6 +1,6 @@
 <template>
-    <div class="h-full lg:h-96 overflow-hidden relative">
-        <img :src="image" class="w-full xl:w-5/6  mx-auto">
+    <div class="h-full  overflow-hidden relative">
+        <img :src="image" class="w-full xl:max-w-7xl  mx-auto">
     </div>
 </template>
 <script>
