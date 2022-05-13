@@ -4,19 +4,34 @@
         Onze Partners
     </div>
     <div class="flex-1 flex flex-col md:flex-row flex-wrap gap-6">
+        <div class="w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto">
+            <a href="https://www.erfgoedcelleuven.be/" target="_blank">
+                <img src="/images/erfgoed-logo.png" class="mx-auto">
+            </a>
+        </div>
+        <div class="w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto">
+            <a href="https://www.detempelier.be/" target="_blank">
+                <img src="/images/tempelier_logo.png" class="mx-auto">
+            </a>
+        </div>
+        <div class="w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto">
+            <a href="https://www.magabel.be/nl/accueil-nederlands/" target="_blank">
+                <img src="/images/magabel_logo.png" class="mx-auto">
+            </a>
+        </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4  mx-auto my-auto">
             <a href="https://www.dewasstraat.be/" target="_blank">
                 <img src="/images/dewasstraat.png" class="mx-auto mb-2">
             </a>
         </div>
-        <div class="w-1/2 md:w-1/3 lg:w-1/4  mx-auto my-auto">
-            <a href="https://www.cirkusinbeweging.be/" target="_blank">
-                <img src="/images/CIB_doorzichtig.png" class="mx-auto mb-2">
-            </a>
-        </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto">
             <a href="http://www.luvanium.be/" target="_blank">
                 <img src="/images/logo3_luvanium.png" class="mx-auto">
+            </a>
+        </div>
+        <div class="w-1/2 md:w-1/3 lg:w-1/4  mx-auto my-auto">
+            <a href="https://www.cirkusinbeweging.be/" target="_blank">
+                <img src="/images/CIB_doorzichtig.png" class="mx-auto mb-2">
             </a>
         </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto">
@@ -30,11 +45,7 @@
                 <p class="text-center">Wereldfeest 2022</p>
             </a>
         </div>
-        <div class="w-1/2 md:w-1/3 lg:w-1/4 mx-auto my-auto">
-            <a href="https://www.erfgoedcelleuven.be/" target="_blank">
-                <img src="/images/erfgoed-logo.png" class="mx-auto">
-            </a>
-        </div>
+
     </div>
 </div>
 </template>
