@@ -29,6 +29,11 @@
                 <img src="/images/logo3_luvanium.png" class="mx-auto">
             </a>
         </div>
+         <div class="w-1/2 md:w-1/3 lg:w-1/4  mx-auto my-auto">
+            <a href="https://www.dewatergroep.be/" target="_blank">
+                <img src="/images/wtg_basislogo_rgb1.png" class="mx-auto mb-2">
+            </a>
+        </div>
         <div class="w-1/2 md:w-1/3 lg:w-1/4  mx-auto my-auto">
             <a href="https://www.cirkusinbeweging.be/" target="_blank">
                 <img src="/images/CIB_doorzichtig.png" class="mx-auto mb-2">
